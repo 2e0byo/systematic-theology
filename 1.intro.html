@@ -574,6 +574,15 @@ et vitam ventúri sǽculi. Amen.</blockquote>
      // - https://revealjs.com/config/
      Reveal.initialize({
        hash: true,
+       multiplex: {
+         secret: "16645372012351967986",
+         id: "7af36b1c5cbb3c15",
+         url: 'https://reveal-multiplex.glitch.me/'
+       },
+       dependencies: [
+         { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
+         { src: 'https://reveal-multiplex.glitch.me/master.js', async: true },
+       ],
 
        // Learn about plugins: https://revealjs.com/plugins/
        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
