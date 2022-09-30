@@ -16,6 +16,6 @@ def as_client(master: str):
 
 
 for masterf in list(Path("slides").glob("*.html")):  # not sure if it updates
-    clientf = OUTDIR / masterf.with_stem(masterf.stem + "-client").name
+    clientf = OUTDIR / masterf.with_name(masterf.stem + "-client.html").name
     clientf.write_text(as_client(masterf.read_text()))
-    copy(masterf, OUTDIR / masterf.with_stem(masterf.stem + "-master").name)
+    copy(masterf, OUTDIR / masterf.with_name(masterf.stem + "-master.html").name)
