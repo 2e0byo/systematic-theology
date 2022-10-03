@@ -54,6 +54,7 @@
     <div class="reveal">
       <div class="slides">
         <section
+          data-timing="60"
           data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/800px-Saint_Augustine_by_Philippe_de_Champaigne.jpg"
           data-background-size="contain">
           <div class="fragment">
@@ -88,7 +89,7 @@
           </section>
 
           <!-- Early Models -->
-          <section>
+          <section data-timing="30">
             <h3>Early Models</h3>
             <p class="fragment">(I.e. some models you won't have thought of)</p>
           </section>
@@ -172,7 +173,7 @@
 
         <!-- Modern Models -->
         <section>
-          <section>
+          <section data-timing="30">
             <h3>A Whistle-Stop Intellectual Tour</h3>
           </section>
 
@@ -218,7 +219,7 @@
             </div>
           </section>
 
-          <section>
+          <section data-timing="60">
             <h3>The invention of Printing</h3>
             <p class="fragment">(Era of the personal system)</p>
 
@@ -229,7 +230,7 @@
             </ul>
           </section>
 
-          <section>
+          <section data-timing="60">
             <div class="row">
               <div class="column">
                 <img height="100%" src="https://images-na.ssl-images-amazon.com/images/I/5150g9lfUcL._SY291_BO1,204,203,200_QL40_.jpg"/>
@@ -247,7 +248,11 @@
 
         <!-- What are we doing? -->
         <section>
-          <section>
+          <section data-timing="30">
+            <aside class="notes" data-markdown>
+              - *living*
+              - *system*
+            </aside>
             <h3>A living system</h3>
           </section>
 
@@ -275,7 +280,7 @@
           </section>
 
           <!-- What to go and read (and how to read it) -->
-          <section data-auto-animate>
+          <section data-auto-animate data-timing="240">
             <aside class="notes" data-markdown>
               - discuss reading list here
               - different categories of works
@@ -297,7 +302,7 @@
 
           </section>
           <!-- Poem (not labelling) -->
-          <section data-auto-animate>
+          <section data-auto-animate data-timing="600">
             <aside class="notes" data-markdown>
               - *living* terms---not labelling
               - but Cf. Maritain "concepts running with the blood of the martyrs"
@@ -375,7 +380,7 @@ That haves y-dit the foule pit
           </section>
         </section>
 
-        <section data-auto-animate>
+        <section data-auto-animate data-timing="20">
           <div data-id="poem">
             <div data-id="block-0" class="poetry-lines"
 >Ich crie to thee; thou see to me!
@@ -413,7 +418,10 @@ Inferni.</div>
           </div>
         </section>
 
-        <section data-auto-animate data-auto-animate-duration="2">
+        <section data-auto-animate data-auto-animate-duration="2" data-timing="240">
+          <aside class="notes" data-markdown>
+            - roughly outline which week we're doing things in
+          </aside>
           <table style="font-size: medium">
 
             <tr>
@@ -486,7 +494,7 @@ Effecta.</div>
         </section>
 
         <!-- Outro to break -->
-        <section>
+        <section data-timing="0">
           <iframe
             data-autoplay
             width="734"
@@ -499,7 +507,7 @@ Effecta.</div>
         </section>
         <!-- Seminar part -->
         <section>
-          <section>
+          <section data-timing="60">
             <h3>Seminar</h3>
             <blockquote>
               [...] one remark that Ratzinger whispered to me after three-quarters
@@ -512,7 +520,7 @@ Effecta.</div>
 
             </blockquote>
           </section>
-          <section>
+          <section data-timing="3600">
             <blockquote style="white-space: pre"
 >Credo in unum Deum,
 Patrem omnipoténtem,
@@ -585,7 +593,8 @@ et vitam ventúri sǽculi. Amen.</blockquote>
        ],
 
        // Learn about plugins: https://revealjs.com/plugins/
-       plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+       plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+       totalTime: 8700 // 2h25m
      });
     </script>
   </body>
