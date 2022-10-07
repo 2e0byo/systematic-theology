@@ -146,7 +146,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/creedinslowmotio0000rona",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Catechism",
@@ -155,7 +156,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/massinslowmotion0000knox",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Catechism",
@@ -164,7 +166,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/beliefofcatholic0000knox_h2r4",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Catechism",
@@ -173,7 +176,8 @@
         "language": "English",
         "notes": "",
         "url": "",
-        "online": false
+        "online": false,
+        "classes": []
     },
     {
         "category": "Church",
@@ -182,7 +186,8 @@
         "language": "Latin",
         "notes": "",
         "url": "http://patristica.net/denzinger/enchiridion-symbolorum.html",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Church",
@@ -191,7 +196,8 @@
         "language": "English",
         "notes": "",
         "url": "http://www.patristica.net/denzinger/",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Church",
@@ -200,7 +206,8 @@
         "language": "Latin",
         "notes": "",
         "url": "https://www.vatican.va/archive/catechism_lt/index_lt.htm",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Church",
@@ -209,7 +216,8 @@
         "language": "English",
         "notes": "",
         "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Church",
@@ -218,7 +226,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/catechismofcounc00cathiala",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Church",
@@ -227,7 +236,8 @@
         "language": "Latin",
         "notes": "",
         "url": "https://archive.org/details/bub_gb_Oow_AAAAcAAJ",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Introduction",
@@ -237,7 +247,8 @@
         "language": "English",
         "notes": "",
         "url": "https://www.google.co.uk/books/edition/Thomas_Aquinas/21eeRD24ETUC",
-        "online": false
+        "online": false,
+        "classes": []
     },
     {
         "category": "Patristics",
@@ -246,7 +257,8 @@
         "language": "Latin",
         "notes": "",
         "url": "http://patristica.net/latina/",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Patristics",
@@ -255,7 +267,8 @@
         "language": "Greek/Latin",
         "notes": "",
         "url": "http://patristica.net/graeca/",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Reference",
@@ -264,7 +277,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/dictionaryoftheo00bouy",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Reference",
@@ -273,7 +287,8 @@
         "language": "French",
         "notes": "",
         "url": "https://philosophieduchristianisme.wordpress.com/2018/07/18/lire-le-dictionnaire-de-theologie-catholique-en-ligne",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Reference",
@@ -282,7 +297,8 @@
         "language": "English",
         "notes": "Acquisition Requested",
         "url": "https://academic.oup.com/edited-volume/28110",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Reference",
@@ -291,7 +307,8 @@
         "language": "English",
         "notes": "",
         "url": "https://www.google.co.uk/books/edition/The_Blackwell_Companion_to_Catholicism/8N1W5hAK43IC",
-        "online": false
+        "online": false,
+        "classes": []
     },
     {
         "category": "Introduction",
@@ -300,7 +317,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/spiritofearlychr0000wilk_i4u6",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Theology",
@@ -310,7 +328,8 @@
         "language": "English",
         "notes": "?",
         "url": "http://xm8pe9xp3w.search.serialssolutions.com/?ctx_ver=Z39.88-2004&ctx_enc=info%3Aofi%2Fenc%3AUTF-8&rfr_id=info%3Asid%2Fsummon.serialssolutions.com&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.title=The+Trinity&rft.au=Emery%2C+Gilles&rft.date=2011-01-01&rft.pub=Catholic+University+of+America+Press&rft.isbn=9780813218649&rft.externalDocID=EBC3135149&paramdict=en-UK",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Theology",
@@ -319,7 +338,8 @@
         "language": "English",
         "notes": "",
         "url": "https://archive.org/details/mysteriesofchris0000sche",
-        "online": true
+        "online": true,
+        "classes": []
     },
     {
         "category": "Theology",
@@ -328,6 +348,7 @@
         "language": "English",
         "notes": "Dated, but excellent",
         "url": "https://archive.org/details/introductiontoch0000jose",
-        "online": true
+        "online": true,
+        "classes": []
     }
 ]
