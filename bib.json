@@ -1,0 +1,354 @@
+[
+    {
+        "Title": "The Faith of the Early Fathers",
+        "Subtitle": "A source-book of theological and historical passages from the Christian writings of the Pre-Nicene and Nicene eras",
+        "Author": "W. A. Jurgens",
+        "Url": "https://archive.org/details/faithofearlyfath0000waju",
+        "Online": true,
+        "Language": "English",
+        "Category": "Patristics",
+        "Classes": [
+            "2_christology"
+        ],
+        "Notes": "Short patristic excerpts",
+        "Type": "book"
+    },
+    {
+        "Title": "Commentary on the Documents of Vatican II",
+        "Editor": "Vorgrimler",
+        "Url": "https://archive.org/details/commentaryondocu0001unse",
+        "Volume": 1,
+        "Online": true,
+        "Language": "English",
+        "Category": "Reference",
+        "Classes": [],
+        "Notes": "Liturgy, Media, Church, Eastern Churches",
+        "Type": "book"
+    },
+    {
+        "Title": "Commentary on the Documents of Vatican II",
+        "Editor": "Vorgrimler",
+        "Url": "https://archive.org/details/commentaryondocu0002unse",
+        "Volume": 2,
+        "Online": true,
+        "Language": "English",
+        "Category": "Reference",
+        "Classes": [],
+        "Notes": "Ecumenism, Bishops, Religious Life, Priestly Formation",
+        "Type": "book"
+    },
+    {
+        "Title": "Commentary on the Documents of Vatican II",
+        "Editor": "Vorgrimler",
+        "Url": "https://archive.org/details/commentaryondocu0003unse",
+        "Volume": 3,
+        "Online": true,
+        "Language": "English",
+        "Category": "Reference",
+        "Classes": [],
+        "Notes": "Non-Christians, Revelation, Laity",
+        "Type": "book"
+    },
+    {
+        "Title": "Commentary on the Documents of Vatican II",
+        "Editor": "Vorgrimler",
+        "Url": "https://archive.org/details/commentaryondocu0000unse",
+        "Volume": 4,
+        "Online": true,
+        "Language": "English",
+        "Category": "Reference",
+        "Classes": [],
+        "Type": "book"
+    },
+    {
+        "Title": "Commentary on the Documents of Vatican II",
+        "Editor": "Vorgrimler",
+        "Url": "https://archive.org/details/commentaryondocu0005unse",
+        "Volume": 5,
+        "Online": true,
+        "Language": "English",
+        "Category": "Reference",
+        "Classes": [],
+        "Notes": "Church in Modern World",
+        "Type": "book"
+    },
+    {
+        "Title": "The Christological Controversy",
+        "Editor": "Richard A. Norris",
+        "Url": "https://stmarys.summon.serialssolutions.com/#!/search?bookMark=eNrjYmDJy89LZWbgMrAwMDAzNDE0tGRl4DC3NDCwsLA04GDgLS7OMgACcwsjCwsDTga5kIxUBeeMoszikvyc_PTM5MQcheT8vJKi_LLUouJKHgbWtMSc4lReBpaSotJUbgZpN9cQZw_d4tzS5PjkxJJEoJ54w3hDE0sDUyP8sgDiECqG",
+        "Online": false,
+        "Language": "English",
+        "Category": "Patristics",
+        "Classes": [
+            "2_christology"
+        ],
+        "Type": "book"
+    },
+    {
+        "Title": "The Cambridge Edition of Early Christian Writings",
+        "Subtitle": "Christ: Through the Nestorian Controversy",
+        "Editor": "Mark DelCogliano",
+        "Url": "https://www.google.co.uk/books/edition/The_Cambridge_Edition_of_Early_Christian/xhhdEAAAQBAJ",
+        "Volume": 3,
+        "Online": false,
+        "Language": "English",
+        "Category": "Patristics",
+        "Classes": [
+            "2_christology"
+        ],
+        "Notes": "",
+        "Type": "book"
+    },
+    {
+        "Title": "The Cambridge Edition of Early Christian Writings",
+        "Subtitle": "Chalcedon and Beyond",
+        "Editor": "Mark DelCogliano",
+        "Url": "https://www.google.co.uk/books/edition/The_Cambridge_Edition_of_Early_Christian/LxhdEAAAQBAJ",
+        "Volume": 4,
+        "Online": false,
+        "Language": "English",
+        "Category": "Patristics",
+        "Classes": [
+            "2_christology"
+        ],
+        "Notes": "",
+        "Type": "book"
+    },
+    {
+        "Title": "Five Thoughts on Christ's Sacrifice",
+        "Author": "Lewis Ayres",
+        "Url": "https://churchlifejournal.nd.edu/articles/five-thoughts-on-christs-sacrifice/",
+        "Online": true,
+        "Language": "English",
+        "Category": "Introduction",
+        "Classes": [
+            "7_soteriology"
+        ],
+        "Type": "article"
+    },
+    {
+        "Title": "Catholic Dogmatic Theology",
+        "Subtitle": "A Synthesis",
+        "Author": "Jean Herv\u00e9 Nicolas OP",
+        "Url": "https://stmarys.summon.serialssolutions.com/#!/search?bookMark=eNqFi0EOgjAQADcREkX5gQduXjRpu0XkTDQ-wDvZlAoYaBO3HPi9_YG3mUwmg8R5ZzeQiZtEhRrrMoVMCSWF1iVWW8iZP0IIVWId4w5ODYXBT6MpOt_PFCKEwfrJ9-u5oIJXF5VHPkD6poltDkn4LnYPx8f91TwvPC-mNRQoHq1s5RUrrfBP_gEepC5G",
+        "Online": true,
+        "Language": "English",
+        "Category": "Reference",
+        "Classes": [
+            "1_intro"
+        ],
+        "Type": "book"
+    },
+    {
+        "Category": "Catechism",
+        "Title": "The Creed in Slow Motion",
+        "Author": "Ronald Knox",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/creedinslowmotio0000rona",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Catechism",
+        "Title": "The Mass in Slow Motion",
+        "Author": "Ronald Knox",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/massinslowmotion0000knox",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Catechism",
+        "Title": "The Belief of Cathllics",
+        "Author": "Ronald Knox",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/beliefofcatholic0000knox_h2r4",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Catechism",
+        "Title": "The New Creation",
+        "Author": "Herbet McCabe",
+        "Language": "English",
+        "Notes": "",
+        "Url": "",
+        "Online": false,
+        "Classes": []
+    },
+    {
+        "Category": "Church",
+        "Title": "Denzinger (both numberings)",
+        "Author": "",
+        "Language": "Latin",
+        "Notes": "",
+        "Url": "http://patristica.net/denzinger/enchiridion-symbolorum.html",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Church",
+        "Title": "Denzinger (old numbering)",
+        "Author": "",
+        "Language": "English",
+        "Notes": "",
+        "Url": "http://www.patristica.net/denzinger/",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Church",
+        "Title": "Catechism Catholic Church",
+        "Author": "",
+        "Language": "Latin",
+        "Notes": "",
+        "Url": "https://www.vatican.va/archive/catechism_lt/index_lt.htm",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Church",
+        "Title": "Catechism Catholic Church",
+        "Author": "",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Church",
+        "Title": "Roman Catechism (Catechism of the Council of Trent)",
+        "Author": "",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/catechismofcounc00cathiala",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Church",
+        "Title": "Roman Catechism (Catechism of the Council of Trent)",
+        "Author": "",
+        "Language": "Latin",
+        "Notes": "",
+        "Url": "https://archive.org/details/bub_gb_Oow_AAAAcAAJ",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Introduction",
+        "Title": "Thomas Aquinas",
+        "Subtitle": "A portrait",
+        "Author": "Denys Turner",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://www.google.co.uk/books/edition/Thomas_Aquinas/21eeRD24ETUC",
+        "Online": false,
+        "Classes": []
+    },
+    {
+        "Category": "Patristics",
+        "Title": "Migne (Patrologia Latina)",
+        "Author": "",
+        "Language": "Latin",
+        "Notes": "",
+        "Url": "http://patristica.net/latina/",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Patristics",
+        "Title": "Migne (Patrologia Graeca)",
+        "Author": "",
+        "Language": "Greek/Latin",
+        "Notes": "",
+        "Url": "http://patristica.net/graeca/",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Reference",
+        "Title": "Theological Dictionary",
+        "Author": "Louis Bouyer",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/dictionaryoftheo00bouy",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Reference",
+        "Title": "Dictionnaire de Th\u00e9ologie Catholique",
+        "Author": "",
+        "Language": "French",
+        "Notes": "",
+        "Url": "https://philosophieduchristianisme.wordpress.com/2018/07/18/lire-le-dictionnaire-de-theologie-catholique-en-ligne",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Reference",
+        "Title": "Oxford Handbook Catholic Theology",
+        "Author": "",
+        "Language": "English",
+        "Notes": "Acquisition Requested",
+        "Url": "https://academic.oup.com/edited-volume/28110",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Reference",
+        "Title": "The Blackwell Companion to Catholicism",
+        "Editor": "Buckley, Bauerschmidt and Pomplun",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://www.google.co.uk/books/edition/The_Blackwell_Companion_to_Catholicism/8N1W5hAK43IC",
+        "Online": false,
+        "Classes": []
+    },
+    {
+        "Category": "Introduction",
+        "Title": "The Spirit of Early Christian Thought",
+        "Author": "Robert Wilken",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/spiritofearlychr0000wilk_i4u6",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Theology",
+        "Title": "The Trinity",
+        "Subtitle": "An Introduction to Catholic Doctrine",
+        "Author": "Gilles Emery",
+        "Language": "English",
+        "Notes": "?",
+        "Url": "http://xm8pe9xp3w.search.serialssolutions.com/?ctx_ver=Z39.88-2004&ctx_enc=info%3Aofi%2Fenc%3AUTF-8&rfr_id=info%3Asid%2Fsummon.serialssolutions.com&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.title=The+Trinity&rft.au=Emery%2C+Gilles&rft.date=2011-01-01&rft.pub=Catholic+University+of+America+Press&rft.isbn=9780813218649&rft.externalDocID=EBC3135149&paramdict=en-UK",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Theology",
+        "Title": "The Mysteries of Christianity",
+        "Author": "M. J. Scheeben",
+        "Language": "English",
+        "Notes": "",
+        "Url": "https://archive.org/details/mysteriesofchris0000sche",
+        "Online": true,
+        "Classes": []
+    },
+    {
+        "Category": "Theology",
+        "Title": "Introduction to Christianity",
+        "Author": "Ratzinger",
+        "Language": "English",
+        "Notes": "Dated, but excellent",
+        "Url": "https://archive.org/details/introductiontoch0000jose",
+        "Online": true,
+        "Classes": []
+    }
+]

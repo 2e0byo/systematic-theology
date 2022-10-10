@@ -12,6 +12,28 @@
        text-align: right;
        margin-top: 0.5em;
      }
+     .card {
+       margin-top: 0.5em;
+       margin-bottom: 0.5em;
+     }
+     button {
+       margin-top: 0.5em;
+       margin-bottom: 0.5em;
+     }
+     button[data-dir="asc"]::after {
+       content: url("data:image/svg+xml,%3Csvg xmlns='https://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpolygon points='0, 0 8,0 4,8 8' fill='%23818688'/%3E%3C/svg%3E");
+     }
+ 
+     button[data-dir="desc"]::after {
+       content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpolygon points='4 0,8 8,0 8' fill='%23818688'/%3E%3C/svg%3E");
+     }
+     h5 {
+       font-style: italic;
+     }
+     .multicol {
+       column-width: 190px;
+       column-gap: 10px;
+     }
     </style>
   </head>
 
@@ -40,7 +62,8 @@
           will be advanced remotely by me during the lecture.
         </div>
         <ul>
-          <li><a href="https://2e0byo.github.io/systematic-theology/1.intro-client.html">Week 1: <em>Introduction</em></a></li>
+          <li><a href="1.intro-client.html">Week 1: <em>Introduction</em></a></li>
+          <li><a href="2.christology1-client.html">Week 2: <em>Christology I</em></a></li>
         </ul>
       </section>
 
@@ -102,232 +125,65 @@
             </p>
           </blockquote>
 
-          <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+          <div class="container">
+          <button id="Title">Title</button>
+          <button id="Subtitle">Subtitle</button>
+          <button id="Responsible">Author/Editor</button>
+          <button id="Language">Language</button>
+          <button id="Volume">Vol</button>
+          <button id="Category">Category</button>
+          <button id="Classes">Classes</button>
+          <button id="Notes">Notes</button>
+          <button id="Type">Type</button>
+          <button id="href">Link</button>
+          </div>
 
+          <div class="bib-container" id="bib-container">
+            <div class="card">
+              <header>
+                <div class="row is-marginless">
+                  <div class="col-8 is-marginless">
+                    <h4>Book Title</h4>
+                  </div>
+                  <div class="col-4 text-right">
+                    Author
+                  </div>
+                  <div class="col is-marginless">
+                    <h5>A very long subtitle explaining just how good this work is!!! it's really good.</h5>
+                  </div>
+                </div>
+              </header>
+              <div class="multicol">
+                <div>Category: Patristics</div>
+                <div>Language: English</div>
+                <div>Available Online: <a>Archive.org</a></div>
+                <div>Not Available Online: <a>Catalogue</a></div>
+              </div>
+            </div>
+          </div>
 
-            <!-- <colgroup>
-                 <col  class="org-left" />
-                 <col  class="org-left" />
-                 <col  class="org-left" />
-                 <col  class="org-left" />
-                 <col  class="org-left" />
-                 <col  class="org-left" />
-                 </colgroup> -->
-            <thead>
-              <tr>
-                <th scope="col" class="org-left">Category</th>
-                <th scope="col" class="org-left">Title</th>
-                <th scope="col" class="org-left">Author</th>
-                <th scope="col" class="org-left">Language</th>
-                <th scope="col" class="org-left">Notes</th>
-                <th scope="col" class="org-left">Link</th>
-              </tr>
-            </thead>
-            <tbody>
+          <!-- <div class="table-container">
+               <table class="bib-table striped">
+               <thead>
+               <tr id="header">
+               <th><button id="Title">Title</button></th>
+               <th><button id="Subtitle">Subtitle</button></th>
+               <th><button id="Responsible">Author/Editor</button></th>
+               <th><button id="Language">Language</button></th>
+               <th><button id="Volume">Vol</button></th>
+               <th><button id="Category">Category</button></th>
+               <th><button id="Classes">Classes</button></th>
+               <th><button id="Notes">Notes</button></th>
+               <th><button id="Type">Type</button></th>
+               <th><button id="href">Link</button></th>
+               </tr>
+               </thead>
+               <tbody id="bib-table-content">
+               </tbody>
 
-              <tr>
-                <td class="org-left">Catechism</td>
-                <td class="org-left">The Creed in Slow Motion</td>
-                <td class="org-left">Ronald Knox</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/creedinslowmotio0000rona">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Catechism</td>
-                <td class="org-left">The Mass in Slow Motion</td>
-                <td class="org-left">Ronald Knox</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/massinslowmotion0000knox">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Catechism</td>
-                <td class="org-left">The Belief of Catholics</td>
-                <td class="org-left">Ronald Knox</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/beliefofcatholic0000knox_h2r4">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Catechism</td>
-                <td class="org-left">The New Creation</td>
-                <td class="org-left">Herbet McCabe</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">&#xa0;</td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Church</td>
-                <td class="org-left">Denzinger (both numberings)</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">Latin</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="http://patristica.net/denzinger/enchiridion-symbolorum.html">Online</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Church</td>
-                <td class="org-left">Denzinger (old numbering)</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="http://www.patristica.net/denzinger/">Online</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Church</td>
-                <td class="org-left">Catechism of the Catholic Church</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">Latin</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://www.vatican.va/archive/catechism_lt/index_lt.htm">Online</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Church</td>
-                <td class="org-left">Catechism of the Catholic Church</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a
-                                       href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Church</td>
-                <td class="org-left">Roman Catechism (Catechism of the Council of Trent)</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/catechismofcounc00cathiala">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Church</td>
-                <td class="org-left">Roman Catechism (Catechism of the Council of Trent)</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">Latin</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/bub_gb_Oow_AAAAcAAJ">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Introduction</td>
-                <td class="org-left">Thomas Aquinas: A Portrait</td>
-                <td class="org-left">Denys Turner</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">&#xa0;</td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Patristics</td>
-                <td class="org-left">Migne (Patrologia Latina)</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">Latin</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="http://patristica.net/latina/">Online</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Patristics</td>
-                <td class="org-left">Migne (Patrologia Graeca)</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">Greek/Latin</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="http://patristica.net/graeca/">Online</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Reference</td>
-                <td class="org-left">Theological Dictionary</td>
-                <td class="org-left">Louis Bouyer</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/dictionaryoftheo00bouy">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Reference</td>
-                <td class="org-left">Dictionnaire de Théologie Catholique</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">French</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a
-                                       href="https://philosophieduchristianisme.wordpress.com/2018/07/18/lire-le-dictionnaire-de-theologie-catholique-en-ligne">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Reference</td>
-                <td class="org-left">Oxford Handbook Catholic Theology</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">English</td>
-                <td class="org-left">Acquisition Requested</td>
-                <td class="org-left"><a
-                                       href="https://academic.oup.com/edited-volume/28110">Library Access</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Reference</td>
-                <td class="org-left">The Blackwell Companion to Catholicism</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">English</td>
-                <td class="org-left">Acquisition to be requested</td>
-                <td class="org-left">&#xa0;</td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Reference</td>
-                <td class="org-left">The Spirit of Early Christian Thought</td>
-                <td class="org-left">Robert Wilken</td>
-                <td class="org-left">English</td>
-                <td class="org-left">Acquisition to be requested</td>
-                <td class="org-left">&#xa0;</td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Theology</td>
-                <td class="org-left">The Trinity: An Introduction to Catholic Doctrine</td>
-                <td class="org-left">Gilles Emery</td>
-                <td class="org-left">English</td>
-                <td class="org-left">Acquisition to be requested</td>
-                <td class="org-left"><a
-                                       href="http://xm8pe9xp3w.search.serialssolutions.com/?ctx_ver=Z39.88-2004&amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;rfr_id=info%3Asid%2Fsummon.serialssolutions.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.title=The+Trinity&amp;rft.au=Emery%2C+Gilles&amp;rft.date=2011-01-01&amp;rft.pub=Catholic+University+of+America+Press&amp;rft.isbn=9780813218649&amp;rft.externalDocID=EBC3135149&amp;paramdict=en-UK">Library Access</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Theology</td>
-                <td class="org-left">The Mysteries of Christianity</td>
-                <td class="org-left">M. J. Scheeben</td>
-                <td class="org-left">English</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left"><a href="https://archive.org/details/mysteriesofchris0000sche">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Theology</td>
-                <td class="org-left">Introduction to Christianity</td>
-                <td class="org-left">Ratzinger</td>
-                <td class="org-left">English</td>
-                <td class="org-left">Dated, but excellent</td>
-                <td class="org-left"><a href="https://archive.org/details/introductiontoch0000jose">Internet Archive</a></td>
-              </tr>
-
-              <tr>
-                <td class="org-left">Theology</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">&#xa0;</td>
-                <td class="org-left">&#xa0;</td>
-              </tr>
-            </tbody>
-          </table>
+               </table>
+               </div>
+          -->
         </div>
 
       </section>
@@ -348,15 +204,7 @@
                        : ((el.innerHTML = "🌙"), bodyClass.add("dark"));
      }
     </script>
-    <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-     ga('create', 'UA-91125324-3', 'auto');
-     ga('send', 'pageview');
-    </script>
+    <script src="tbl.js"></script>
   </body>
   <footer>
     Made with <a href="https://jenil.github.io/chota/">Chota</a>.  Source available at <a href="https://github.com/2e0byo/systematic-theology">Github</a>.
