@@ -12,7 +12,7 @@ const createCard = (obj) => {
     const div = document.createElement("div");
     div.className = "card";
 
-    const author = obj.Author? obj.Author : obj.Editor;
+    const author = obj.Author? obj.Author : obj.Editor? obj.Editor: "";
     let header = `
 <header>
 <div class="row is-marginless">
@@ -38,7 +38,6 @@ const createCard = (obj) => {
     if (obj["Url"]) {
         const url = new URL(obj["Url"]);
         const host = url.hostname;
-        console.log(host);
         const k = obj.Online? "Available Online": "Not Available Online";
         const mapped = urlMapping[host] ? urlMapping[host] : "Other";
         obj[k] = `<a href="${url}">${mapped}</a>`;
@@ -51,7 +50,6 @@ const createCard = (obj) => {
     }
     const skip = ["Title", "Subtitle", "Url", "Author"];
 
-    console.log(obj);
     keys
         .filter((k) => {return !skip.includes(k);})
         .forEach((k) => {
@@ -96,13 +94,20 @@ const setCardsContent = (data) => {
 
 async function loadData() {
     const resp = await fetch("bib.json");
-    return await resp.json();
+    let data = await resp.json();
+    const rclasses = await fetch("classes.json");
+    const classes = await rclasses.json();
+
+    data.map((r) => {
+        r.Classes = r.Classes.map(x => classes[x] === undefined? "": classes[x]);
+    });
+    return data;
 }
 
-const buttons = document.querySelectorAll("th button");
+const buttons = document.querySelectorAll("button");
 
 const sortData = (data, by, ascending=true) => {
-    bibtbl.innerHTML = "";
+    bibcards.innerHTML = "";
     const others = data.filter((x) => {return x[by] === undefined;});
     let sorted = [...data]
         .filter((x) => x[by] !== undefined)
@@ -110,23 +115,27 @@ const sortData = (data, by, ascending=true) => {
             return (a[by] > b[by]) ? -1 : (a[by] < b[by]) ? 1 : 0;
         });
     if (!ascending) { sorted.reverse();}
-    setTblContent([...sorted, ...others]);
+    setCardsContent([...sorted, ...others]);
 }
 
 const resetButtons = (e) => {
     [...buttons].map((btn) => {
         if (btn !== e.target) {
             btn.removeAttribute("data-dir");
+            btn.className = "button outline";
+        } else {
+            btn.className = "button";
         }
     });
 };
 
 async function onLoad() {
     const data = await loadData();
-    setTblContent(data);
+    // setTblContent(data);
     setCardsContent(data);
 
     [...buttons].map((btn) => {
+        btn.className = "button outline";
         btn.addEventListener("click", (e) => {
             resetButtons(e);
             if (e.target.getAttribute("data-dir") === "asc") {
