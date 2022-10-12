@@ -24,7 +24,8 @@ jobs:
       - name: Check links
         id: lychee
         uses: lycheeverse/lychee-action@v1.5.1
-        args: --verbose 'dist/*'
+        with:
+          args: --verbose 'dist/*'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
