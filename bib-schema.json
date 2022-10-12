@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "array",
+    "items": {
+        "title": "Bib entry",
+        "description": "Bibliographic Entry",
+        "type": "object",
+        "properties": {
+            "Title": {
+                "type": "string"
+            },
+            "Subtitle": {
+                "type": "string"
+            },
+            "Author": {
+                "type": "string"
+            },
+            "Editor": {
+                "type": "string"
+            },
+            "Url": {
+                "type": "string"
+            },
+            "Volume": {
+                "type": "number"
+            },
+            "Online": {
+                "type": "boolean"
+            },
+            "Category": {
+                "type": "string"
+            },
+            "Notes": {
+                "type": "string"
+            },
+            "Type": {
+                "type": "string"
+            },
+            "Language": {
+                "type": "string"
+            },
+            "Classes": {
+                "type": "array"
+            }
+        },
+        "required": [
+            "Title",
+            "Online",
+            "Category",
+            "Classes",
+            "Language"
+        ]
+    }
+}
