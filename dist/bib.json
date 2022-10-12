@@ -349,6 +349,17 @@
         "Notes": "Dated, but excellent",
         "Url": "https://archive.org/details/introductiontoch0000jose",
         "Online": true,
-        "Classes": []
+        "Classes": [],
+        "Type": "book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "Aristotle in Aquinas's Theology",
+        "Editor": "Gilles Emery and Matthew Levering",
+        "Language": "English",
+        "Type": "book",
+        "Classes": ["3_christology", "7_soteriology"],
+        "Url": "https://archive.org/details/aristotle-in-aquinass-theology",
+        "Notes": "Especially Ch. 9 on Christology and the argument from 'fittingness'."
     }
 ]
