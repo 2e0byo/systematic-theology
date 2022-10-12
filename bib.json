@@ -8,10 +8,10 @@
         "Language": "English",
         "Category": "Patristics",
         "Classes": [
-            "2_christology"
+            "2_christology1"
         ],
         "Notes": "Short patristic excerpts",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "Commentary on the Documents of Vatican II",
@@ -23,7 +23,7 @@
         "Category": "Reference",
         "Classes": [],
         "Notes": "Liturgy, Media, Church, Eastern Churches",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "Commentary on the Documents of Vatican II",
@@ -35,7 +35,7 @@
         "Category": "Reference",
         "Classes": [],
         "Notes": "Ecumenism, Bishops, Religious Life, Priestly Formation",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "Commentary on the Documents of Vatican II",
@@ -47,7 +47,7 @@
         "Category": "Reference",
         "Classes": [],
         "Notes": "Non-Christians, Revelation, Laity",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "Commentary on the Documents of Vatican II",
@@ -58,7 +58,7 @@
         "Language": "English",
         "Category": "Reference",
         "Classes": [],
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "Commentary on the Documents of Vatican II",
@@ -70,7 +70,7 @@
         "Category": "Reference",
         "Classes": [],
         "Notes": "Church in Modern World",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "The Christological Controversy",
@@ -80,9 +80,9 @@
         "Language": "English",
         "Category": "Patristics",
         "Classes": [
-            "2_christology"
+            "2_christology1"
         ],
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "The Cambridge Edition of Early Christian Writings",
@@ -94,10 +94,10 @@
         "Language": "English",
         "Category": "Patristics",
         "Classes": [
-            "2_christology"
+            "2_christology1"
         ],
         "Notes": "",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "The Cambridge Edition of Early Christian Writings",
@@ -109,10 +109,10 @@
         "Language": "English",
         "Category": "Patristics",
         "Classes": [
-            "2_christology"
+            "2_christology1"
         ],
         "Notes": "",
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Title": "Five Thoughts on Christ's Sacrifice",
@@ -124,7 +124,7 @@
         "Classes": [
             "7_soteriology"
         ],
-        "Type": "article"
+        "Type": "Article"
     },
     {
         "Title": "Catholic Dogmatic Theology",
@@ -137,7 +137,7 @@
         "Classes": [
             "1_intro"
         ],
-        "Type": "book"
+        "Type": "Book"
     },
     {
         "Category": "Catechism",
@@ -349,6 +349,17 @@
         "Notes": "Dated, but excellent",
         "Url": "https://archive.org/details/introductiontoch0000jose",
         "Online": true,
-        "Classes": []
+        "Classes": [],
+        "Type": "Book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "Aristotle in Aquinas's Theology",
+        "Editor": "Gilles Emery and Matthew Levering",
+        "Language": "English",
+        "Type": "Book",
+        "Classes": ["3_christology2", "7_soteriology"],
+        "Url": "https://archive.org/details/aristotle-in-aquinass-theology",
+        "Notes": "Especially Ch. 9 on Christology and the argument from 'fittingness'."
     }
 ]
