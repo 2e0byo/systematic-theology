@@ -15,6 +15,12 @@ jobs:
       - name: Build
         run: scripts/build.py
 
+      - name: Validate bib.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: bib-schema.json
+          INPUT_JSONS: dist/bib.json
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
