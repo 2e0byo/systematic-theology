@@ -1,4 +1,3 @@
-const bibtbl = document.getElementById("bib-table-content");
 const bibcards = document.getElementById("bib-container");
 
 const urlMapping = {
@@ -32,7 +31,7 @@ const createCard = (obj) => {
 
     div.innerHTML = header;
 
-    const contents = document.createElement("div")
+    const contents = document.createElement("div");
     contents.className = "multicol";
 
     if (obj["Url"]) {
@@ -48,7 +47,7 @@ const createCard = (obj) => {
         keys = keys.filter((x) => x !== "Notes");
         keys.push("Notes");
     }
-    const skip = ["Title", "Subtitle", "Url", "Author"];
+    const skip = ["Title", "Subtitle", "Url", "Author", "Online"];
 
     keys
         .filter((k) => {return !skip.includes(k);})
@@ -60,30 +59,6 @@ const createCard = (obj) => {
         });
     div.appendChild(contents);
     return div;
-}
-
-const createRow = (obj) => {
-    const row = document.createElement("tr");
-    if (obj["url"]) {
-        const url = new URL(obj["url"]);
-        const host = url.hostname;
-        obj["href"] = `<a href="${url}">${urlMapping[host]}</a>`;
-    }
-    const headers = [...document.getElementById("header").children];
-    headers.forEach((h) => {
-        const id = h.firstChild.id;
-        const cell = document.createElement("td");
-        cell.setAttribute("data-attr", id);
-        cell.innerHTML = obj[id] ? obj[id] : "";
-        row.appendChild(cell);
-    });
-    return row;
-}
-
-const setTblContent = (data) => {
-    data.map((obj) => {
-        bibtbl.appendChild(createRow(obj));
-    });
 }
 
 const setCardsContent = (data) => {
@@ -99,7 +74,13 @@ async function loadData() {
     const classes = await rclasses.json();
 
     data.map((r) => {
-        r.Classes = r.Classes.map(x => classes[x] === undefined? "": classes[x]);
+        r.Classes = r.Classes.map((x) => {
+            if (classes[x] === undefined) {
+                console.log("Failed to find class", x, "in classes", classes);
+                return "";
+            } else {
+                return classes[x];
+            }});
     });
     return data;
 }
@@ -131,7 +112,6 @@ const resetButtons = (e) => {
 
 async function onLoad() {
     const data = await loadData();
-    // setTblContent(data);
     setCardsContent(data);
 
     [...buttons].map((btn) => {
