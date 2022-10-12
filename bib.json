@@ -361,5 +361,25 @@
         "Classes": ["3_christology2", "7_soteriology"],
         "Url": "https://archive.org/details/aristotle-in-aquinass-theology",
         "Notes": "Especially Ch. 9 on Christology and the argument from 'fittingness'."
+    },
+    {
+        "Category": "Reference",
+        "Title": "Summa Theologiae",
+        "Language": "English",
+        "Type": "Book",
+        "Classes": ["3_christology2", "5_trinity2"],
+        "Url": "https://www.newadvent.org/summa/",
+        "Notes": "Many websites offer this translation, which is very literal but workable."
+    },
+    {
+        "Category": "Reference",
+        "Title": "Summa Theologiae",
+        "Language": "Latin",
+        "Type": "Book",
+        "Classes": [
+            "3_christology2",
+            "5_trinity2"
+        ],
+        "Url": "https://www.corpusthomisticum.org/iopera.html",
     }
 ]
