@@ -7,6 +7,8 @@ const urlMapping = {
     "academic.oup.com": "OUP",
 };
 
+const formatEntry = e => typeof(e) === "object"? e.join(", "): e;
+
 const createCard = (obj) => {
     const div = document.createElement("div");
     div.className = "card";
@@ -54,7 +56,7 @@ const createCard = (obj) => {
         .forEach((k) => {
             const innerDiv = document.createElement("div");
             innerDiv.setAttribute("data-attr", k);
-            innerDiv.innerHTML = obj[k] ? `${k}:&nbsp;<span>${obj[k]}</span>` : "";
+            innerDiv.innerHTML = obj[k] ? `${k}:&nbsp;<span>${formatEntry(obj[k])}</span>` : "";
             contents.appendChild(innerDiv);
         });
     div.appendChild(contents);
