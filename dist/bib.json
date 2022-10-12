@@ -368,7 +368,7 @@
         "Title": "Summa Theologiae",
         "Language": "English",
         "Type": "Book",
-        "Classes": ["3_christology2", "5_trinity2"],
+        "Classes": ["3_christology2", "6_trinity2"],
         "Online": true,
         "Url": "https://www.newadvent.org/summa/",
         "Notes": "Many websites offer this translation, which is very literal but workable."
@@ -380,7 +380,7 @@
         "Type": "Book",
         "Classes": [
             "3_christology2",
-            "5_trinity2"
+            "6_trinity2"
         ],
         "Online": true,
         "Url": "https://www.corpusthomisticum.org/iopera.html"
