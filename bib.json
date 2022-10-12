@@ -359,6 +359,7 @@
         "Language": "English",
         "Type": "Book",
         "Classes": ["3_christology2", "7_soteriology"],
+        "Online": true,
         "Url": "https://archive.org/details/aristotle-in-aquinass-theology",
         "Notes": "Especially Ch. 9 on Christology and the argument from 'fittingness'."
     },
@@ -368,6 +369,7 @@
         "Language": "English",
         "Type": "Book",
         "Classes": ["3_christology2", "5_trinity2"],
+        "Online": true,
         "Url": "https://www.newadvent.org/summa/",
         "Notes": "Many websites offer this translation, which is very literal but workable."
     },
@@ -380,6 +382,7 @@
             "3_christology2",
             "5_trinity2"
         ],
-        "Url": "https://www.corpusthomisticum.org/iopera.html",
+        "Online": true,
+        "Url": "https://www.corpusthomisticum.org/iopera.html"
     }
 ]
