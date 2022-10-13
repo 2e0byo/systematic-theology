@@ -318,7 +318,10 @@
         "Notes": "",
         "Url": "https://archive.org/details/spiritofearlychr0000wilk_i4u6",
         "Online": true,
-        "Classes": ["2_christology1", "5_trinity1"]
+        "Classes": [
+            "2_christology1",
+            "5_trinity1"
+        ]
     },
     {
         "Category": "Theology",
@@ -358,7 +361,10 @@
         "Editor": "Gilles Emery and Matthew Levering",
         "Language": "English",
         "Type": "Book",
-        "Classes": ["3_christology2", "7_soteriology"],
+        "Classes": [
+            "3_christology2",
+            "7_soteriology"
+        ],
         "Online": true,
         "Url": "https://archive.org/details/aristotle-in-aquinass-theology",
         "Notes": "Especially Ch. 9 on Christology and the argument from 'fittingness'."
@@ -368,7 +374,10 @@
         "Title": "Summa Theologiae",
         "Language": "English",
         "Type": "Book",
-        "Classes": ["3_christology2", "6_trinity2"],
+        "Classes": [
+            "3_christology2",
+            "6_trinity2"
+        ],
         "Online": true,
         "Url": "https://www.newadvent.org/summa/",
         "Notes": "Many websites offer this translation, which is very literal but workable."
@@ -384,5 +393,17 @@
         ],
         "Online": true,
         "Url": "https://www.corpusthomisticum.org/iopera.html"
+    },
+    {
+        "Category": "Philology",
+        "Title": "Enchantment and Creed in the Hymns of Ambrose of Milan",
+        "Language": "English",
+        "Author": "Brian Dunkle",
+        "Online": false,
+        "Url": "https://www.google.co.uk/books/edition/Enchantment_and_Creed_in_the_Hymns_of_Am/gucoDQAAQBAJ",
+        "Classes": [
+            "2_christology1"
+        ],
+        "Type": "Book"
     }
 ]
