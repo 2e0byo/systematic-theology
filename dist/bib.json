@@ -405,5 +405,30 @@
             "2_christology1"
         ],
         "Type": "Book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "Catholicism",
+        "Author": "Henri de Lubac",
+        "Subtitle": "Christ and the Common Destiny of Man",
+        "Language": "English",
+        "Notes": "If possible, however, read the original french!",
+        "Url": "https://archive.org/details/catholicismchris0000luba",
+        "Online": true,
+        "Classes": [
+            "3_christology2"
+        ],
+        "Type": "Book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "Essai sur le mystère de l'histoire",
+        "Language": "French",
+        "Author": "Jean Daniélou",
+        "Language": "French",
+        "Online": true,
+        "Url": "https://archive.org/details/esaisurlemystere0000unse",
+        "Classes": ["3_christology2"],
+        "Type": "Book"
     }
 ]
