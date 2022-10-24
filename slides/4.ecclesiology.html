@@ -11,6 +11,7 @@
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+     .reveal table td { border-bottom: none;}
      .row { display: flex }
      .column { flex: 50% }
      .column > img {
@@ -245,8 +246,8 @@
           <section>
             <h4>Mystici Corporis</h4>
             <div class="row">
-              <div class="column"
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Pius_XII_with_stole.png"/>
+              <div class="column">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Pius_XII_with_stole.png">
               </div>
               <div class="column">
                 <blockquote>
@@ -273,13 +274,23 @@
           <section>
             <h4>Corpus Mysticum</h4>
             <div class="row">
-              <div class="column"
-                <img src="https://www.abebooks.co.uk/servlet/BookDetailsPL?bi=30752478050"</div>
+              <div class="column">
+                <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Corpus_Mysticum.jpg">
               </div>
               <div class="column">
                 <blockquote class="fragment">
+                  But in order thus to bypass the sociological order and to become
+                  in all truth this ‘body of the Church made alive by the Spirit’
+                  the ecclesial body has to become in all reality the body of
+                  Christ... Now, the Eucharist is the mystical principle,
+                  permanently at work at the heart of Christian society, which
+                  gives concrete form to this miracle. It is the universal bond,
+                  it is the ever-springing source of life. Nourished by the body
+                  and blood of the Saviour, his faithful people thus all ‘drink
+                  of the one Spirit, who truly makes them into one single body.’
+                  Literally speaking, therefore, the Eucharist makes the Church.
                   <footer class="citation">
-                    <cite><a href=""></a></cite>
+                    <cite>Henri de Lubac, <em>Corpus Mysticum</em></cite>
                   </footer>
                 </blockquote>
               </div>
@@ -459,6 +470,20 @@
               </div>
             </div>
           </section>
+
+          <section>
+            <h4>Authoritative teaching</h4>
+            <ul>
+              <li class="fragment">Infallibility</li>
+              <ul>
+                <li class="fragment">Of Pope</li>
+                <li class="fragment">Of Councils</li>
+                <li class="fragment">Of Church</li>
+                <li class="fragment">When?</li>
+              </ul>
+              <li class="fragment"><em>Auctoritas</em> and <em>Potestas</em></li>
+            </ul>
+          </section>
         </section>
 
         <section>
@@ -502,7 +527,7 @@
 
         <!-- Poem: eliot or or all other love? -->
         <section>
-          <pre class="r-stretch no-box">
+          <pre class="r-stretch no-box" style="max-width: 100%">
             <code class="language-plaintext poetry"
             >Midwinter spring is its own season
 Sempiternal though sodden towards sundown,
@@ -599,8 +624,8 @@ Is England and nowhere. Never and always.
      Reveal.initialize({
        hash: true,
        multiplex: {
-         secret:"16660077987757628896",
-         id:"b47efdbe885e4161",
+         secret:"1666626783084195397",
+         id:"d7a7716b5e93f01c",
          url: 'https://reveal-multiplex.glitch.me/'
        },
        dependencies: [
