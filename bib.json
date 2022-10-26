@@ -330,9 +330,9 @@
         "Author": "Gilles Emery",
         "Language": "English",
         "Notes": "?",
-        "Url": "http://xm8pe9xp3w.search.serialssolutions.com/?ctx_ver=Z39.88-2004&ctx_enc=info%3Aofi%2Fenc%3AUTF-8&rfr_id=info%3Asid%2Fsummon.serialssolutions.com&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.title=The+Trinity&rft.au=Emery%2C+Gilles&rft.date=2011-01-01&rft.pub=Catholic+University+of+America+Press&rft.isbn=9780813218649&rft.externalDocID=EBC3135149&paramdict=en-UK",
+        "Url": "https://stmarys.summon.serialssolutions.com/#!/search?bookMark=eNp10MtOwzAQBVAjCqItXfEDrEAsWsZ2Hp4lrcpDqsSmYms58Zg2DQmNXSr-nkAEiAXLkc690p0B61V1RYydcZgICel1MclDkO55a_cHbACKS8ERZHz4fagkgmPWRyEQUy7jEzbyvgAAzlNMUPTZcLmi82Wzrtbh_ZQdOVN6GrFeaHY0ZE-38-Xsfrx4vHuY3SzGRkEMYowZgEtsYi2i48oJF1FmM6tiA1kikefCWOlyRRwjiLPUGRtR1MZUG1RGDtlVV2z8hvZ-VZfB67eSsrreeI2p-l3S2svOvjb1dkc-6C-WUxUaU-r5dCbbXTzCP7KgPLzsPOl_Oi86WfhQN7ojHPTnT3Whf34qPwBKLGZd",
         "Online": true,
-        "Classes": []
+        "Classes": ["5_trinity1"]
     },
     {
         "Category": "Theology",
@@ -430,5 +430,59 @@
         "Url": "https://archive.org/details/esaisurlemystere0000unse",
         "Classes": ["3_christology2"],
         "Type": "Book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "Five Theological Orations",
+        "Subtitle": "Translated with an introduction and notes by Stephen Reynolds",
+        "Author": "Gregory Nazianzus",
+        "Language": "English",
+        "Online": true,
+        "Url": "https://tspace.library.utoronto.ca/bitstream/1807/36303/1/Gregory%20of%20Nazianzus%20Theological%20Orations.pdf",
+        "Classes": ["5_trinity1"],
+        "Type": "Book"
+    },
+    {
+        "Category": "Patristics",
+        "Title": "The Five Theological Orations",
+        "Author": "Gregory Nazianzus",
+        "Language": "Greek",
+        "Online": true,
+        "Url": "https://archive.org/details/TheFiveTheologicalOrations",
+        "Classes": [
+            "5_trinity1"
+        ],
+        "Type": "Book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "The Cambridge Companion to Augustine",
+        "Editor": "Eleonore Stump",
+        "Url": "https://stmarys.summon.serialssolutions.com/#!/search?bookMark=eNqNkbtPAzEMxoMoElC6MjF0YEGoYOedsTrxkip1qVij3DXXll4vqLmDf5-gKwMgHvZiyz9b8vcdk14dak_IKcIVAqrrLJtOQFCUAlDLPTIwSiMyAwDU4P6X_pAMYnxKNTCFQsEROZ8t_TBzm3y7mi9SFTbPrl6FetiE4bhdtLFZ1f6EHJSuin5Aes229X3yeHszy-5Hk-ndQzaejJzRoPmIszKnKQ0Dz4ELjsKb0ivFHNXGFLIUlCIqmeeKSsO90mpOwaHkroS5Z31y1h2Om7awhWtcFRYWLXIlmUnji27s4tq_xmWommhfKp-HsI5296hGYRT8j-1E-ZsFgUhTcJFY7NjiQzNbhO0ORbDvptjPpqSdy287efiZ_lWEN1Ovjdo",
+        "Online": true,
+        "Language": "English",
+        "Classes": ["5_trinity1"],
+        "Type": "Book"
+    },
+    {
+        "Category": "Patristics",
+        "Title": "Opera Omnia",
+        "Author": "St. Augustine",
+        "Url": "http://www.augustinus.it/latino/index.htm",
+        "Language": "Latin",
+        "Online": true,
+        "Classes": ["5_trinity1"],
+        "Type": "Online"
+    },
+    {
+        "Category": "Patristics",
+        "Title": "The Trinity",
+        "Author": "St. Augustine",
+        "Language": "English",
+        "Url": "https://stmarys.summon.serialssolutions.com/#!/search?bookMark=eNrjYmDJy89LZWbgtTS3MDQ1MzWxMDExM-dk4A7JSFUIKcrMyyyp5GFgTUvMKU7lZWApKSpN5WaQcXMNcfbQLc4tTY5PTixJzMlPjzeMNzQ2MzA2MyIgDQBzPx7G",
+        "Online": false,
+        "Classes": ["5_trinity1"],
+        "Type": "Book"
     }
+
 ]
