@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Introduction to Systematic Theology</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css"
+      integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+      integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/moon.min.css"
+      integrity="sha512-mzpbI+YpB+bIH9gpH3cBq4u5+YvyAikkgAR4SODr5ZpzBZZtLddurEa5LoJRqRfVc6IUfqj6klr0e9KJjUtKHw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css"
+      integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+     .reveal table td {
+       border-bottom: none;
+     }
+
+     .row {
+       display: flex
+     }
+
+     .column {
+       flex: 50%
+     }
+
+     .column>img {
+       max-height: 60%;
+     }
+
+     blockquote {
+       text-align: justify;
+       hyphens: auto;
+       text-justify: auto;
+       font-size: large;
+     }
+
+     footer.citation {
+       text-align: right;
+       margin-top: 0.5em;
+       font-family: sans-serif;
+     }
+
+     .overlay {
+       background-color: var(--r-background-color) !important;
+       opacity: 70% !important;
+     }
+
+     .rubric {
+       color: red;
+     }
+
+     .hljs-ln-numbers {
+       display: none
+     }
+
+     .no-box {
+       box-shadow: none !important
+     }
+
+     .medium {
+       font-size: medium
+     }
+
+     .poetry {
+       background-color: var(--r-background-color);
+       font-family: serif !important;
+       font-size: medium;
+       white-space: pre;
+       line-height: normal;
+       column-count: 2;
+     }
+
+     .poetry-lines {
+       margin-top: 1em;
+       text-align: left;
+       font-family: serif !important;
+       font-weight: normal;
+       font-size: medium;
+       white-space: pre;
+       line-height: normal;
+     }
+
+     .faded {
+       opacity: 0.4
+     }
+
+     .unfaded {
+       opacity: 1
+     }
+
+     .bg {
+       background-color: var(--r-main-color);
+     }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section data-timing="15"
+          data-background-image="https://upload.wikimedia.org/wikipedia/commons/0/0b/Angelsatmamre-trinity-rublev-1410.jpg"
+          data-background-size="contain">
+        </section>
+
+        <section data-timing="120">
+          <section>
+            Two asides
+          </section>
+
+          <section data-auto-animate>
+            <h4>Christ the King</h4>
+            <div class="row">
+              <div class="column">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Spas_vsederzhitel_sinay.jpg" />
+              </div>
+              <div class="column">
+                <blockquote class="fragment" data-id="1">
+                  Omnípotens sempitérne Deus, qui in dilécto Fílio tuo,
+                  universórum Rege, ómnia instauráre voluísti: concéde
+                  propítius; ut cunctæ famíliæ géntium, peccáti vúlnere
+                  disgregátæ, eius suavíssimo subdántur império: Qui.
+                  <footer class="citation">
+                    <cite>Collect for Christ the King</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <h4>Christ the King</h4>
+            <div class="row">
+              <div class="column">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Spas_vsederzhitel_sinay.jpg" />
+              </div>
+              <div class="column">
+                <blockquote data-id="1">
+                  <span class="faded">Omnípotens sempitérne Deus, qui in dilécto Fílio tuo,
+                    universórum Rege, ómnia instauráre voluísti: concéde
+                    propítius; ut cunctæ famíliæ géntium, peccáti vúlnere</span>
+                  disgregátæ<span class="faded">, eius suavíssimo subdántur império: Qui.</span>
+                  <footer class="citation">
+                    <cite>Collect for Christ the King</cite>
+                  </footer>
+                </blockquote>
+
+                <blockquote data-id="2" class="fragment">
+                  Gregem tuum, Pastor ætérne, placátus inténde: et per beátum
+                  N. Mártyrem tuum atque Summum Pontíficem perpétua
+                  protectióne custódi; quem totíus Ecclésiæ præstitísti esse
+                  pastórem. Per.
+                  <footer class="citation">
+                    <cite>Collect for a Martyr Pope</cite>
+                  </footer>
+                </blockquote>
+
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <h4>Christ the King</h4>
+            <div class="row">
+              <div class="column">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Spas_vsederzhitel_sinay.jpg" />
+              </div>
+              <div class="column">
+                <blockquote data-id="1">
+                  <span class="faded">Omnípotens sempitérne Deus, qui in dilécto Fílio tuo,
+                    universórum Rege, ómnia instauráre voluísti: concéde
+                    propítius; ut cunctæ famíliæ géntium, peccáti vúlnere</span>
+                  disgregátæ<span class="faded">, eius suavíssimo subdántur império: Qui.</span>
+                  <footer class="citation">
+                    <cite>Collect for Christ the King</cite>
+                  </footer>
+                </blockquote>
+
+                <blockquote data-id="2">
+                  Gregem<span class="faded"> tuum, Pastor ætérne, placátus inténde: et per beátum
+                  N. Mártyrem tuum atque Summum Pontíficem perpétua
+                  protectióne custódi; quem</span> totíus Ecclésiæ <span class="faded"> præstitísti
+                  esse</span>
+                  pastórem. <span class="faded"> Per.</span>
+                  <footer class="citation">
+                    <cite>Collect for a Martyr Pope</cite>
+                  </footer>
+                </blockquote>
+                <p class="fragment" style="font-size: large">
+                  Church and State: not a settled question.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <h4>November: prayer for the departed</h4>
+            <ul data-id="1">
+              <li class="fragment">Plenary indulgence!</li>
+              <li class="fragment">(And at death.)</li>
+              <li class="fragment">(Provided you've said a few prayers in your life.)</li>
+              <li class="fragment">And yet purgatory...</li>
+            </ul>
+            <p data-id="2" class="fragment">
+              What's the <em>role</em> of a doctrine?
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <h4>November: prayer for the departed</h4>
+            <ul data-id="1">
+              <li>Plenary indulgence!</li>
+              <li>(And at death.)</li>
+              <li>(Provided you've said a few prayers in your life.)</li>
+              <li>And yet purgatory...</li>
+            </ul>
+            <p data-id="2">
+              What <em>difference</em> does it make to hold it?
+            </p>
+          </section>
+        </section>
+
+        <!-- Real start. -->
+        <section data-timing="60"
+          data-background-image="https://upload.wikimedia.org/wikipedia/commons/0/0b/Angelsatmamre-trinity-rublev-1410.jpg"
+          data-background-size="contain">
+          <div class="fragment">
+            <h2 class="overlay">Trinity I</h2>
+          </div>
+          <div class="fragment">
+            <h4 class="overlay">Doctrine</h4>
+          </div>
+        </section>
+
+        <section data-auto-animate>
+          <h4>Nicea I (325)</h4>
+          <div class="row">
+            <div class="column">
+              <img
+                src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/8449035/Nicaea.jpg?1478518701">
+            </div>
+            <div class="column">
+              <blockquote>
+                <span data-id="1">
+                  We believe in One God, the Father Almighty, maker of all
+                  things visible and invisible. And in one Lord Jesus Christ
+                  the Son of God, the only-begotten born of the Father, who is
+                  of the substance of the Father, God from God, Light from
+                  Light, True God from True God, Begotten <em>natum</em>, not
+                  Made, consubstantial with the father, through whom all things
+                  were made in heaven and on earth, who for our salvation came
+                  down, was incarnate and made Man, suffered and rose the third
+                  day and ascended into heaven, he will come to judge the living
+                  and the dead.</span><span data-id="2"> And [we believe] in the Holy Ghost.</span>
+
+                <p>
+                  <span data-id="3">
+                    But those who say "He was; and at one time he was not", and
+                    "before he was born, he was not" and "who was made from
+                    nothing" or from another substance or essence, or that the Son
+                    of God is changeable or mutable---these the Catholic Church
+                    anathematises.
+                  </span>
+                </p>
+                <footer class="citation">
+                  — <cite><a
+                            href="http://patristica.net/denzinger/enchiridion-symbolorum.html">DZ125</a></cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <section data-auto-animate>
+            <h4>Nicea I (325)</h4>
+            <div class="row">
+              <div class="column">
+                <img
+                  src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/8449035/Nicaea.jpg?1478518701">
+              </div>
+              <div class="column">
+                <blockquote>
+                  <span data-id="1" class="faded"> We believe in One God, the Father Almighty, maker of
+                    all
+                    things visible and invisible. And in one Lord Jesus Christ
+                    the Son of God, the only-begotten born of the Father, who is
+                    of the substance of the Father, God from God, Light from
+                    Light, True God from True God, Begotten <em>natum</em>, not
+                    Made, consubstantial with the father, through whom all things
+                    were made in heaven and on earth, who for our salvation came
+                    down, was incarnate and made Man, suffered and rose the third
+                    day and ascended into heaven, he will come to judge the living
+                    and the dead.</span><span data-id="2"> And [we believe] in the Holy Ghost.</span>
+
+                  <p>
+                    <span data-id="3" class="faded">
+                      But those who say "He was; and at one time he was not", and
+                      "before he was born, he was not" and "who was made from
+                      nothing" or from another substance or essence, or that the Son
+                      of God is changeable or mutable---these the Catholic Church
+                      anathematises.
+                    </span>
+                  </p>
+                  <footer class="citation">
+                    — <cite><a
+                              href="http://patristica.net/denzinger/enchiridion-symbolorum.html">DZ125</a></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <h4>Constantinople 1 (381)</h4>
+            <div class="row">
+              <div class="column">
+                <img
+                  src="http://www.uec.eu/UEC_photos_to_website/uec_gr_athos_great_lavra_church_athanasius_second_ecumenical_council.jpg" />
+              </div>
+              <div class="column">
+                <blockquote>
+                  <span data-id="1">
+                    I believe in one God, the Father Almighty, maker of heaven and
+                    earth, and of all things visible and invisible;
+
+                    And in one Lord Jesus Christ, [...]
+
+                  </span>And I believe in the Holy Ghost the Lord, the Giver of Life, who
+                  proceedeth from the Father and the Son; who with the Father and
+                  the Son together is worshipped and glorified; who spoke by the
+                  Prophets.<span data-id="2"> And I believe one holy Catholic and Apostolic Church;
+                    I acknowledge one Baptism for the remission of sins; and I look
+                    for the resurrection of the dead, and the life of the world to
+                    come. Amen.</span>
+                  <footer data-id="3" class="citation">
+                    <cite>Creed</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <h4>Constantinople 1 (381)</h4>
+
+            <aside class="notes" data-markdown>
+              - What has happened between these two?
+              - What is being said?
+            </aside>
+
+            <div class="row">
+              <div class="column">
+                <img
+                  src="http://www.uec.eu/UEC_photos_to_website/uec_gr_athos_great_lavra_church_athanasius_second_ecumenical_council.jpg" />
+              </div>
+              <div class="column">
+                <blockquote>
+                  <span class="faded" data-id="1">
+                    I believe in one God, the Father Almighty, maker of heaven and
+                    earth, and of all things visible and invisible;
+
+                    And in one Lord Jesus Christ, [...]
+
+                  </span>And I believe in the Holy Ghost the Lord, the Giver of Life, who
+                  proceedeth from the Father and the Son; who with the Father and
+                  the Son together is worshipped and glorified; who spoke by the
+                  Prophets.<span class="faded" data-id="2"> And I believe one holy Catholic and Apostolic
+                    Church;
+                    I acknowledge one Baptism for the remission of sins; and I look
+                    for the resurrection of the dead, and the life of the world to
+                    come. Amen.</span>
+                  <footer data-id="3" class="citation">
+                    <cite>Creed</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h4>The “athanasian” creed</h4>
+            <aside class="notes">
+              Sunday at Prime until recently (Pius X). Still said sometimes in the EF. (Trinity Sunday 62.)
+            </aside>
+            <blockquote>
+              <p class="fragment">
+                Whosoever will be saved, before all things it is necessary that
+                he hold the catholic faith. Which faith unless every one do keep
+                whole and undefiled, without doubt he shall perish
+                everlastingly.
+              </p>
+
+              <p class="fragment">
+                And the catholic faith is this:
+                that we worship one God in Trinity, and Trinity in Unity; neither confounding
+                the Persons, nor dividing the Essence. For there is one Person of the Father;
+                another of the Son; and another of the Holy Ghost. But the Godhead of the
+                Father, of the Son, and of the Holy Ghost, is all one; the Glory equal, the
+                Majesty coeternal. Such as the Father is; such is the Son; and such is the Holy
+                Ghost. The Father uncreated; the Son uncreated; and the Holy Ghost
+                uncreated. The Father unlimited; the Son unlimited; and the Holy Ghost
+                unlimited. The Father eternal; the Son eternal; and the Holy Ghost eternal. And
+                yet they are not three eternals; but one eternal. As also there are not three
+                uncreated; nor three infinites, but one uncreated; and one infinite. So likewise
+                the Father is Almighty; the Son Almighty; and the Holy Ghost Almighty. And yet
+                they are not three Almighties; but one Almighty. So the Father is God; the Son
+                is God; and the Holy Ghost is God. And yet they are not three Gods; but one
+                God. So likewise the Father is Lord; the Son Lord; and the Holy Ghost Lord. And
+                yet not three Lords; but one Lord. For like as we are compelled by the Christian
+                verity; to acknowledge every Person by himself to be God and Lord; So are we
+                forbidden by the catholic religion; to say, There are three Gods, or three
+                Lords. The Father is made of none; neither created, nor begotten. The Son is of
+                the Father alone; not made, nor created; but begotten. The Holy Ghost is of the
+                Father and of the Son; neither made, nor created, nor begotten; but
+                proceeding.</p>
+
+            </blockquote>
+          </section>
+
+          <section>
+            <blockquote>
+              <p>
+                So there is one Father, not three Fathers; one Son, not three Sons;
+                one Holy Ghost, not three Holy Ghosts. And in this Trinity none is before, or
+                after another; none is greater, or less than another. But the whole three
+                Persons are coeternal, and coequal. So that in all things, as aforesaid; the
+                Unity in Trinity, and the Trinity in Unity, is to be worshipped. He therefore
+                that will be saved, let him thus think of the Trinity.
+              </p>
+
+              <p class="fragment">
+                Furthermore, it is necessary to everlasting salvation; that he
+                also believe faithfully the Incarnation [...]
+                <span class="fragment">of the Substance of the Father; begotten
+                  before the worlds; and Man, of the Substance of his Mother, born
+                  in the world.</span>
+              </p>
+
+              <p class="fragment">
+                At whose coming all men will rise again with their bodies; And
+                shall give account for their own works. And they that have done
+                good shall go into life everlasting; and they that have done
+                evil, into everlasting fire. This is the catholic faith; which
+                except a man believe truly and firmly, he cannot be saved.
+              </p>
+            </blockquote>
+          </section>
+        </section>
+
+        <section>
+          <h4>Trinitarian Theology</h4>
+          <table>
+            <tr>
+              <td class="fragment">One God</td>
+              <td class="fragment">Three “persons”</td>
+            </tr>
+            <tr>
+              <td class="fragment">Three relations</td>
+              <td class="fragment">Not three modes of existence!</td>
+            </tr>
+            <tr>
+              <td class="fragment">One worship</td>
+              <td class="fragment">Three who are worshipped</td>
+            </tr>
+            <tr>
+              <td class="fragment">Three who are one</td>
+              <td class="fragment">Not three centres of consciousness</td>
+            </tr>
+          </table>
+        </section>
+
+        <section>
+          <section>
+            <h4>Filioque?</h4>
+          </section>
+          <section>
+            <div class="row">
+              <div class="column">
+                <img src="https://m.media-amazon.com/images/I/71hSqq7DqiL.jpg" />
+              </div>
+              <div class="column">
+                <blockquote style="width: 100%">
+                  <p class="fragment">
+                    Whether the trinitarian views of East and West were genuinely incompatible is almost
+                    secondary to the fact that beginning in the eighth or ninth century people began to
+                    think that they were. This was especially true in the East, where the link between
+                    orthodoxy and orthopraxis was much stronger, and the West’s use of an interpolated
+                    creed signaled to many a substantively different faith. From the Latins’
+                    perspective, the Eastern rejection of the filioque was considered not only sinful
+                    disobedience to Peter’s legitimate successor, but also a denial of the
+                    consubstantiality of the Father and Son, and thus a form of crypto-Arianism.
+                  </p>
+
+                  <p class="fragment">
+                    by the ninth century the
+                    Greeks’ knowledge of the Western fathers
+                    (and the Latins’ knowledge of the East) was,
+                    on the whole, rather poor. For this reason
+                    the West relied quite heavily on the Latin
+                    fathers (especially Augustine) while the
+                    Byzantines depended almost solely on
+                    Greek-speaking authors. By the fifteenth
+                    century the Greek delegates at Florence were
+                    (on several occasions) forced to admit a
+                    total ignorance of the Latin patristic
+                    tradition. And although the Latins and their
+                    unionist supporters in the East increasingly
+                    used Greek sources to prove their case, to
+                    claim that they utilized the Greek fathers
+                    is not to say that they understood them.
+                  </p>
+                  <footer class="citation">
+                    <cite><a href="https://archive.org/details/filioquehistoryo0000siec/">Siecienski, <em>The filioque</em></a></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h4>Filioque?</h4>
+            <div class="row">
+              <div class="column">
+                <img src="https://m.media-amazon.com/images/I/71hSqq7DqiL.jpg" />
+              </div>
+              <div class="column">
+                <blockquote style="width: 100%">
+                  <p>
+                    The issue of ecumenicity was compounded by the
+                    problem of translation. As the centuries passed, fewer participants in the
+                    debate were bilingual, so Greeks and Latins alike were forced to rely on works
+                    received in translation. This process frequently fostered misunderstanding [...]
+                    This was particularly true of the Greek word
+                    ἐκπορεύεσθαι (“to proceed”), which was used
+                    in the Scripture (Jn 15:26) and the Nicene-Constantinopolitan Creed to
+                    describe the procession of the Holy Spirit. In the West this word was translated by
+                    the Latin verb, procedere [...]
+                  </p>
+
+                  <p class="fragment">
+                    Yet the methodological question that was the most perplexing was the hermeneutical
+                    one: should the Greek fathers, who
+                    wrote ambiguously of the Spirit’s procession διὰ τοῦ Υἱοῦ, be interpreted in light
+                    of the Western fathers (who had
+                    spoken more explicitly about procession ex filio), or should the Latin patristic
+                    witness be read through the Greek lens,
+                    since their testimony was the more ancient?
+                  </p>
+                  <footer class="citation">
+                    <cite><a href="https://archive.org/details/filioquehistoryo0000siec/">Siecienski, <em>The filioque</em></a></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+          <section>
+            How do you convince someone that your theology is orthodox?
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h4>Filling it in</h4>
+          </section>
+          <section>
+            <h5>Incarnate God</h5>
+            <ul>
+              <li>Communicatio idiomatum</li>
+              <li class="fragment">Unity of the Divine nature!</li>
+            </ul>
+          </section>
+
+          <section>
+            <h5>Saving God</h5>
+            <ul>
+              <li class="fragment">Spirit given to all <span class="fragment">when?</span></li>
+              <li class="fragment">Beatific vision</li>
+            </ul>
+          </section>
+
+          <section>
+            <h5>Substantial God</h5>
+            <ul>
+              <li class="fragment">Structure of existence if Three are One</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <h4>Getting it wrong</h4>
+          <div class="row">
+            <div class="column">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Shield-Trinity-Scutum-Fidei-compact.svg">
+            </div>
+            <div class="column">
+              <ul>
+                <li>Another unhelpful diagram!</li>
+                <li class="fragment">Theology as <em>labelling</em></li>
+                <li class="fragment">But we do deny Tri-theism and Modalism</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h4>Getting it right?</h4>
+          <div class="row">
+            <div class="column">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Angelsatmamre-trinity-rublev-1410.jpg">
+            </div>
+            <div class="column">
+              <ul>
+                <li class="fragment">Made in the image of a triune God?</li>
+                <li class="fragment">Made for a Triune God?</li>
+                <li class="fragment">Made by One whose love is substantial?</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h4>Rublev</h4>
+          <pre class="no-box" style="max-width: 50%">
+            <code class="language-plaintext poetry" style="column-count: 1"
+            >One day, God walked in, pale from the grey steppe,
+slit-eyed against the wind, and stopped,
+said, Colour me, breathe your blood into my mouth.
+
+I said, Here is the blood of all our people,
+these are their bruises, blue and purple,
+gold, brown, and pale green wash of death.
+
+These (god) are the chromatic pains of flesh,
+I said, I trust I shall make you blush,
+O I shall stain you with the scars of birth
+
+For ever, I shall root you in the wood,
+under the sun shall bake you bread
+of beechmast, never let you forth
+
+To the white desert, to the starving sand.
+But we shall sit and speak around
+one table, share one food, one earth.
+            </code>
+            <footer class="citation">
+              <cite><a href="https://stg-stj.org.uk/2020/06/07/rublev-a-poem-for-trinity-sunday/">Rowan Williams, <em>Rublev</em></a> </cite>
+            </footer>
+          </pre>
+        </section>
+
+        <section class="medium" data-timing="0">
+          <!-- <blockquote> -->
+          <p>Ⓒ John Morris 2022</p>
+
+          <p>Made with <a href="https://revealjs.com">reveal.js</a>.</p>
+
+          <p>Source available on github: <a
+                                           href="https://github.com/2e0byo/systematic-theology/">2e0byo/systematic-theology</a>.</p>
+
+          <p style="font-size: small">All images loaded directly from public-domain sources. See source for
+            credits.</p>
+
+
+          <!-- </blockquote> -->
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"
+      integrity="sha512-fEgazVdZLNymIm9n+b2jtCrM4DQiqNTfLNUxbsGSFUJpYemf9A8GxgJ3VAfU/Lc6yZkDdEOdekBDZtG/mf73fQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"
+      integrity="sha512-nLsCkPS/rdxRVOkxiKnld9KhQ24V/5kRChzSZ3MoFODykbWyBlQRsHLrbpN3J4LabYBnXIp1EnRIo3ifvyiQIg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+      integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"
+      integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+     // More info about initialization & config:
+     // - https://revealjs.com/initialization/
+     // - https://revealjs.com/config/
+     Reveal.initialize({
+       hash: true,
+       multiplex: {
+         secret: "16678344463422800230",
+         id: "e521c763fa34c2c0",
+         url: 'https://reveal-multiplex.glitch.me/'
+       },
+       dependencies: [{
+         src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js',
+         async: true
+       },
+                      {
+                        src: 'https://reveal-multiplex.glitch.me/master.js',
+                        async: true
+                      },
+       ],
+
+       // Learn about plugins: https://revealjs.com/plugins/
+       plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+       totalTime: 4800, // 1h 20 (seminar separate)
+       // The "normal" size of the presentation, aspect ratio will
+       // be preserved when the presentation is scaled to fit different
+       // resolutions. Can be specified using percentage units.
+       width: 960,
+       height: 700,
+
+       // Factor of the display size that should remain empty around
+       // the content
+       margin: 0.04,
+
+       // Bounds for smallest/largest possible scale to apply to content
+       minScale: 0.2,
+       maxScale: 3.0
+     });
+    </script>
+  </body>
+
+</html>
