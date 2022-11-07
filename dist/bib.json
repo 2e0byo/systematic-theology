@@ -483,6 +483,17 @@
         "Online": false,
         "Classes": ["5_trinity1"],
         "Type": "Book"
+    },
+    {
+        "Category": "Theology",
+        "Title": "The filioque",
+        "Subtitle": "History of a doctrinal controversy",
+        "Url": "https://archive.org/details/filioquehistoryo0000siec/"
+        "Language": "English",
+        "Online": true,
+        "Classes": ["5_trinity1"],
+        "Type": "Book",
+        "Author": "Edward A. Siecienski"
     }
 
 ]
