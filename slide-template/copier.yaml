@@ -1,0 +1,13 @@
+Title: ""
+Subtitle: ""
+filename: ""
+runtime:
+  type: str
+  help: "Total runtime for the presentation"
+  default: "1h 20m"
+
+_jinja_extensions:
+  - copier_templates_extensions.TemplateExtensionLoader
+  - extensions/context.py:ContextUpdater
+
+_subdirectory: slide
