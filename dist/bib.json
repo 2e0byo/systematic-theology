@@ -494,6 +494,16 @@
         "Classes": ["5_trinity1"],
         "Type": "Book",
         "Author": "Edward A. Siecienski"
+    },
+    {
+        "Category": "Theology",
+        "Title": "The major works",
+        "Author": "St. Anselm",
+        "Url": "https://stmarys.summon.serialssolutions.com/#!/search?bookMark=eNpVj01rAjEQQKdooWoX_4LXHhaS3WQycyzSD2HBi0JvkmRnEXc1sLH171foqe_2Lg_eHKaXdJEHKNiR0qwtUq2rCczvwtYoRV9PUOR8Unc0WzRuBsvdUVZnf0rj6pbGPj_DY-eHLAVMr-O3LGD__rZbf5bN9mOzfm1Kj9qwK6soUUlg00aLnqiV6BHRumC0Za6xrYztRKgj8Zpih2RYKu9aRRRCvYCXv67PvdzyMQ3XfPgZJKTU58O_gfoXhiA5QQ",
+        "Online": true,
+        "Classes": ["7_soteriology"],
+        "Type": "Book",
+        "Language": "English"
     }
 
 ]
