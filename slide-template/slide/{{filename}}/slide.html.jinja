@@ -72,10 +72,12 @@
           data-background-size="contain">
           <div class="fragment">
             <h2 class="overlay">{{ Title }}</h2>
-            {% if Subtitle %}
-            <h5 class="overlay">{{ Subtitle }}</h5>
-            {% endif %}
           </div>
+         {% if Subtitle %}
+          <div class="fragment">
+            <h5 class="overlay">{{ Subtitle }}</h5>
+          </div>
+          {% endif %}
         </section>
 
         <!-- credits -->
@@ -114,7 +116,7 @@
 
        // Learn about plugins: https://revealjs.com/plugins/
        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-         totalTime: {{ runtime.total_seconds() }} // {{ runtime }}
+         totalTime: {{ runtime.total_seconds() }}, // {{ runtime }}
        // The "normal" size of the presentation, aspect ratio will
        // be preserved when the presentation is scaled to fit different
        // resolutions. Can be specified using percentage units.
