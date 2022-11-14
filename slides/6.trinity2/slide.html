@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Trinity II</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css" integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/moon.min.css" integrity="sha512-mzpbI+YpB+bIH9gpH3cBq4u5+YvyAikkgAR4SODr5ZpzBZZtLddurEa5LoJRqRfVc6IUfqj6klr0e9KJjUtKHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+     .reveal table td { border-bottom: none;}
+     .row { display: flex }
+     .column { flex: 50% }
+     .column > img {
+       max-height: 60%;
+     }
+     blockquote {
+       text-align: justify;
+       hyphens: auto;
+       text-justify: auto;
+       font-size: large;
+     }
+     footer.citation {
+       text-align: right;
+       margin-top: 0.5em;
+       font-family: sans-serif;
+     }
+     .overlay {
+       background-color: var(--r-background-color) !important;
+       opacity: 70% !important;
+     }
+     .rubric {
+       color: red;
+     }
+     .hljs-ln-numbers { display: none }
+     .no-box {box-shadow: none !important}
+     .medium {font-size: medium}
+     .poetry {
+       background-color: var(--r-background-color);
+       font-family: serif !important;
+       font-size: medium;
+       white-space: pre;
+       line-height: normal;
+       column-count: 2;
+     }
+     .poetry-lines {
+       margin-top: 1em;
+       text-align: left;
+       font-family: serif !important;
+       font-weight: normal;
+       font-size: medium;
+       white-space: pre;
+       line-height: normal;
+     }
+     .faded { opacity: 0.4 }
+     .unfaded {opacity: 1}
+     .bg {
+       background-color: var(--r-main-color);
+     }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section
+          data-timing="60"
+          data-background-image="https://upload.wikimedia.org/wikipedia/commons/e/eb/Nativity_of_christ.jpg"
+          data-background-size="contain">
+          <div class="fragment">
+            <h2 class="overlay">Trinity II</h2>
+          </div>
+          <div class="fragment">
+            <h5 class="overlay">Theological Loci</h5>
+          </div>
+        </section>
+
+
+        <section>
+          <section data-auto-animate>
+            <h5>Substantial God</h5>
+            <ul>
+              <li>Structure of existence if Three are One</li>
+            </ul>
+            <p class="fragment">What does this mean?</p>
+            <ul>
+              <li class="fragment"><span data-id="image"> Made in the image of a triune God?</span></li>
+              <li class="fragment"><span data-id="for"> Made for a Triune God?</span></li>
+              <li class="fragment"><span data-id="love"> Made by One whose love is substantial?</span></li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <table>
+              <tr>
+                <td><span data-id="image">Made in the image of a triune God?</span></td>
+                <th style="border-bottom: none; border-left: 1px solid;" class="fragment" data-id="anth">
+                  Anthropology
+                </th>
+              </tr>
+              <tr>
+                <td><span data-id="for"> Made for a Triune God?</span></td>
+                <th style="border-bottom: none; border-left: 1px solid;" class="fragment" data-id="esch">
+                  Eschatology</th>
+              </tr>
+              <tr>
+                <td><span data-id="love"> Made by One whose love is substantial?</span></td>
+                <th style="border-bottom: none; border-left: 1px solid;" class="fragment" data-id="anth2">
+                  Anthropology
+                  <span class="fragment">(Soteriology)</span>
+                </th>
+              </tr>
+            </table>
+          </section>
+
+          <section data-auto-animate>
+            <table>
+              <tr>
+                <td><span data-id="image">Made in the image of a triune God?</span></td>
+                <th style="border-bottom: none; border-left: 1px solid;" data-id="anth">
+                  Anthropology</th>
+              </tr>
+              <tr>
+                <td><span data-id="for" class="faded"> Made for a Triune God?</span></td>
+                <th style="border-bottom: none; border-left: 1px solid;" class="faded" data-id="esch">
+                  Eschatology</th>
+              </tr>
+              <tr>
+                <td><span data-id="love"> Made by One whose love is substantial?</span></td>
+                <th style="border-bottom: none; border-left: 1px solid;" data-id="anth2">
+                  Anthropology
+                  <span class="faded">(Soteriology)</span>
+                </th>
+              </tr>
+            </table>
+          </section>
+
+          <section data-auto-animate>
+            <table>
+              <tr>
+                <td><span data-id="image">Made in the image of a triune God?</span></td>
+                <td style="border-bottom: none; border-left: 1px solid;">
+                  Community
+                </td>
+              </tr>
+              <tr>
+                <td><span data-id="love"> Made by One whose love is substantial?</span></td>
+                <td style="border-bottom: none; border-left: 1px solid;">
+                  Unity
+                </td>
+              </tr>
+            </table>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h4>Social Trinitarianism</h4>
+            <div class="r-stack">
+              <img class="fragment" style="transform: rotate(5deg)" src="google-trinity1.png">
+              <img class="fragment" style="transform: rotate(0deg)" src="google-trinity2.png">
+              <img class="fragment" style="transform: rotate(-5deg)" src="google-trinity-suggestions.png">
+              <img class="fragment" src="google-convert.png">
+              <img class="fragment" src="catholic-encyclopedia.png">
+            </div>
+          </section>
+          <section>
+            <h4>Retrospect</h4>
+            <div class="row">
+              <div class="column">
+                <img src="https://m.media-amazon.com/images/I/71qd2xKsCiL.jpg">
+              </div>
+              <div class="column">
+                <blockquote>
+It is now common to note that there has been a surprising revival of interest in
+ the doctrine of the Trinity since the second half of the twentieth century...
+ Recent writers have found in the Trinity not just the essence of Christian
+ faith, but a seemingly endlessly generative doctrine for ethical and social
+ ideas. Right belief about the Trinity will determine our understanding of the
+ church, of the proper shape of human society, and of many other pastoral and
+ political questions.  As Miroslav Volf put it in the title of a paper, ‘The
+ Trinity is Our Social Program’
+
+                  <footer class="citation">
+                    <cite><a href="https://www.google.co.uk/books/edition/The_Quest_for_the_Trinity/KR3vmgEACAAJ?hl=en">Holmes, <em>The Quest for the Trinity</em></a> p.&nbsp;1 </cite>
+                  </footer>
+
+                </blockquote>
+              </div>
+            </div>
+          </section>
+          <section>
+            <blockquote>
+                  <p class="fragment">
+                    In our accounts of a Trinitarian revival, we wanted little
+or nothing to do with such strictures. As a result, we set out on our own to
+offer a different, and we believed better, doctrine. We returned to the
+Scriptures, but we chose (with Tertullian’s Praxeas, Noetus of Smyrna,
+and Samuel Clarke) to focus exclusively on the New Testament texts, instead of
+listening to the whole of Scripture...  We thought about God’s relationship with
+the creation in the economy, but we chose (with the
+Valentinians, Arius, and Hegel) to believe that the Son must be the mode of
+mediation of the Father’s presence to creation, instead of following Irenaeus
+and Athanasius in proposing God’s ability to mediate his own presence. We
+tried to understand the divine unity, but we chose (with Eunomius and Socinus) to believe that we could reason
+adequately about the divine essence, instead of following Basil,
+Gregory of Nyssa, Augustine, Thomas Aquinas, and John Calvin in
+asserting divine unknowability. We addressed divine simplicity, and
+chose (with Socinus and John Biddle) to discard it, rather than following Basil and the rest in affirming it as the heart of Trinitarian doctrine. We thought about Father, Son, and Holy Spirit, but chose (with
+Sabellius, Arius, and Eunomius) to affirm true personality of each,
+rather than following Augustine and John of Damascus in believing in
+one divine personality.
+                  </p>
+                  <p class="fragment">
+                    We called what we were doing a ‘Trinitarian revival’; future historians might want to ask us why.
+                  </p>
+                  <footer class="citation">
+                    <cite><a href="https://www.google.co.uk/books/edition/The_Quest_for_the_Trinity/KR3vmgEACAAJ?hl=en">Holmes, <em>The Quest for the Trinity</em></a> p. 200 </cite>
+                  </footer>
+            </blockquote>
+          </section>
+          <section>
+            <h4>Just what is this doctrine?</h4>
+            <ul>
+              <li class="fragment">Three persons (centres of consciousness)</li>
+              <li class="fragment">One unity</li>
+              <li class="fragment">Acting in history by one person as <em>representative</em></li>
+              <li class="fragment">Go and do likewise</li>
+            </ul>
+          </section>
+          <section>
+            And yet...
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h4>Backing up: building blocks of social trinitarianism</h4>
+            <blockquote class="fragment">
+              The Economic Trinity is the Immanent Trinity (and vice-versa)
+              <footer class="citation">
+                —Rahner
+              </footer>
+            </blockquote>
+            <blockquote class="fragment">
+                Should the doctrine of the Trinity have to be dropped as false,
+                the major part of religious literature could well remain virtually unchanged.
+              <footer class="citation">
+                —Rahner
+              </footer>
+            </blockquote>
+            <ul>
+              <li class="fragment">God acts as Trinity</li>
+              <li class="fragment">God reveals Himself as Trinity</li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h4>Backing up: building blocks of social trinitarianism</h4>
+            <table>
+              <tr>
+                <td>Monarchy of the Father</td>
+                <td class="fragment" style="border-left: 1px solid;"><span data-id="peri">Perichoresis</span></td>
+              </tr>
+            </table>
+          </section>
+
+          <section data-auto-animate>
+            <span data-id="peri">Perichoresis</span>
+          </section>
+
+          <section data-auto-animate>
+            <aside class="notes" data-markdown>
+              Except for the point, the still point, there would be no dance
+              And there is only the dance.
+            </aside>
+            <span data-id="peri">Peri<span class="faded">choresis</span></span>
+            <p>
+              <span data-id="circum">Circum</span>
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <aside class="notes" data-markdown>
+              Choreo, *not* Choreuo
+            </aside>
+            <span data-id="peri"><span class="faded">Peri</span>choresis</span>
+            <p>
+              <span data-id="circum" class="faded">Circum</span><span data-id="incessio">incessio</span>
+            </p>
+            <p class="fragment">
+              "mutual interpenetration"
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <aside class="notes" data-markdown>
+              Choreo, *not* Choreuo
+            </aside>
+            <span data-id="peri">Perichoresis</span>
+            <p>
+              <span data-id="circum">Circum</span><span data-id="incessio">incessio</span>
+            </p>
+            <ul>
+              <li class="fragment">Equality?</li>
+            </ul>
+          </section>
+
+          <section>
+            <blockquote>
+When Jesus had spoken these words, he lifted up his eyes to heaven and said,
+“Father, the hour has come; glorify thy Son that the Son may glorify thee, since
+thou hast given him power over all flesh, to give eternal life to all whom thou
+hast given him. And this is eternal life, that they know thee the only true God,
+and Jesus Christ whom thou hast sent. I glorified thee on earth, having
+accomplished the work which thou gavest me to do; and now, Father, glorify thou
+me in thy own presence with the glory which I had with thee before the world was
+made.
+              <p>
+              I have manifested thy name to the men whom thou gavest me out of
+the world; thine they were, and thou gavest them to me, and they have kept thy
+word. Now they know that everything that thou hast given me is from thee; for I
+have given them the words which thou gavest me, and they have received them and
+know in truth that I came from thee; and they have believed that thou didst send
+me. I am praying for them; I am not praying for the world but for those whom
+thou hast given me, for they are thine; all mine are thine, and thine are mine,
+and I am glorified in them. And now I am no more in the world, but they are in
+the world, and I am coming to thee. Holy Father, keep them in thy name, which
+thou hast given me, that they may be one, even as we are one.
+              </p>
+            <footer class="citation">
+              <cite><a href="https://www.biblegateway.com/passage/?search=John+17&version=RSVCE">Jn 17:1–11 (RSVCE)</a></cite>
+            </footer>
+            </blockquote>
+          </section>
+
+          <section>
+            <blockquote>
+              <span class="faded"> When Jesus had spoken these words, he lifted up his eyes to heaven and said,
+                “Father, the hour has come;</span> glorify thy Son<span class="faded"> that</span> the Son may glorify thee, <span class="faded"> since
+                </span> thou hast given him <span class="faded"> power over all flesh,</span> to give<span class="faded"> eternal life </span> to all<span class="faded"> whom </span>thou
+                hast given him.<span class="faded"> And this is eternal life, that they</span> know thee the only true God,<span class="faded">
+                  and Jesus </span>Christ whom thou hast sent. <span class="faded"> I glorified thee on earth, having
+                  accomplished </span>the work which thou gavest me<span class="faded"> to do; and now, </span>Father, glorify thou
+                me<span class="faded"> in thy own presence with the glory which </span>I had with thee<span class="faded"> before the world was
+                </span>
+made.
+              <p>
+                <span class="faded">
+              I have manifested thy name to the men whom thou gavest me out of
+the world; thine they were, and thou gavest them to me, and they have kept thy
+                  word. Now they know that </span>everything that thou hast given me is from thee;<span class="faded"> for I
+                  have given them </span>the words<span class="faded"> which thou gavest me, and they have received them and
+                  </span>know in truth<span class="faded"> that I came from thee; and they have believed that </span> thou didst send
+me.<span class="faded"> I am praying for them; I am not praying for the world but for those whom
+                    thou hast given me, for </span>they are thine; all mine are thine, and thine are mine,
+and I am glorified in them.<span class="faded"> And now I am no more in the world, but they are in
+                    the world, and I am coming to thee. </span>Holy Father, keep them in thy name, which
+thou hast given me, that they may be one, even as we are one.
+              </p>
+            <footer class="citation">
+              <cite><a href="https://www.biblegateway.com/passage/?search=John+17&version=RSVCE">Jn 17 (RSVCE)</a></cite>
+            </footer>
+            </blockquote>
+          </section>
+
+          <section>
+            <blockquote>
+              <p>
+                While I was with
+                them, I kept them in thy name, which thou hast given me; I have guarded them,
+                and none of them is lost but the son of perdition, that the scripture might be
+                fulfilled. But now I am coming to thee; and these things I speak in the world,
+                that they may have my joy fulfilled in themselves. I have given them thy word;
+                and the world has hated them because they are not of the world, even as I am not
+                of the world.  I do not pray that thou shouldst take them out of the world, but
+                that thou shouldst keep them from the evil one. They are not of the world, even
+                as I am not of the world. Sanctify them in the truth; thy word is truth. As thou
+                didst send me into the world, so I have sent them into the world. And for their
+                sake I consecrate myself, that they also may be consecrated in truth.
+              </p>
+
+              <p>
+                I do not
+                pray for these only, but also for those who believe in me through their word,
+                that they may all be one; even as thou, Father, art in me, and I in thee, that
+                they also may be in us, so that the world may believe that thou hast sent
+                me. The glory which thou hast given me I have given to them, that they may be
+                one even as we are one, I in them and thou in me, that they may become perfectly
+                one, so that the world may know that thou hast sent me and hast loved them even
+                as thou hast loved me. Father, I desire that they also, whom thou hast given me,
+                may be with me where I am, to behold my glory which thou hast given me in thy
+                love for me before the foundation of the world. O righteous Father, the world
+                has not known thee, but I have known thee; and these know that thou hast sent
+                me. I made known to them thy name, and I will make it known, that the love with
+                which thou hast loved me may be in them, and I in them.”
+            </blockquote>
+          </section>
+
+          <section>
+            <blockquote>
+              <p>
+                <span class="faded">
+                While I was with
+                them, I kept them in thy name, which thou hast given me; I have guarded them,
+                and none of them is lost but the son of perdition, that the scripture might be
+                fulfilled. But now I am coming to thee; and these things I speak in the world,
+                  that they may have</span> my joy fulfilled in themselves.<span class="faded"> I have given them thy word;
+                and the world has hated them because they are not of the world, even as I am not
+                of the world.  I do not pray that thou shouldst take them out of the world, but
+                that thou shouldst keep them from the evil one. They are not of the world, even
+                  as I am not of the world. Sanctify them in the truth; thy word is truth.</span> As thou
+                didst send me into the world, so I have sent them into the world. And for their
+                sake I consecrate myself, that they also may be consecrated in truth.
+              </p>
+
+            </blockquote>
+          </section>
+          <section data-auto-animate>
+            <blockquote>
+              <p>
+                I do not
+                pray for these only, but also for those who believe in me through their word,
+                that they may all be one; even as thou, Father, art in me, and I in thee, that
+                they also may be in us, so that the world may believe that thou hast sent
+                me. The glory which thou hast given me I have given to them, that they may be
+                one even as we are one, I in them and thou in me, that they may become perfectly
+                one, so that the world may know that thou hast sent me and hast loved them even
+                as thou hast loved me. Father, I desire that they also, whom thou hast given me,
+                may be with me where I am, to behold my glory which thou hast given me in thy
+                love for me before the foundation of the world. O righteous Father, the world
+                has not known thee, but I have known thee; and these know that thou hast sent
+                me. I made known to them thy name, and I will make it known, that the love with
+                which thou hast loved me may be in them, and I in them.”
+              </p>
+            </blockquote>
+          </section>
+          <section data-auto-animate>
+            <blockquote>
+              <p>
+                <span clas="faded">
+                I do not
+                pray for these only, but also for those who believe in me through their word,
+                  that they may all be one;</span> even as thou, Father, art in me, and I in thee, that
+                they also may be in us, so that the world may believe that thou hast sent
+                me. <span class="faded"> The glory which thou hast given me I have given to them, that they may be
+                one even as we are one, I in them and thou in me, that they may become perfectly
+                one, so that the world may know that thou hast sent me and hast loved them even
+                as thou hast loved me. Father, I desire that they also, whom thou hast given me,
+                may be with me where I am, to behold my glory which thou hast given me in thy
+                love for me before the foundation of the world. O righteous Father, the world
+                has not known thee, but I have known thee; and these know that thou hast sent
+                me. I made known to them thy name, and I will make it known, that the love with
+                which thou hast loved me may be in them, and I in them.”
+                </span>
+              </p>
+            </blockquote>
+          </section>
+        </section>
+        <section>
+          <section data-auto-animate>
+            Not social trinitarianism
+          </section>
+          <section data-auto-animate>
+            Not social trinitarianism or trinitarian socialism
+          </section>
+          <section data-auto-animate>
+            Not social trinitarianism or trinitarian socialism but the Church
+          </section>
+          <section data-auto-animate>
+            <h4>A doctrine not invisble </h4>
+          </section>
+          <section data-auto-animate>
+            <h4>A doctrine not invisble </h4>
+            <div class="row">
+              <div class="column">
+                <img src="https://i.pinimg.com/736x/12/fc/7b/12fc7b5e0205c4a1cf03fa7c2b90965c--james--absolution.jpg">
+              </div>
+              <div class="column">
+                <ul>
+                  <li>in persona Christi</li>
+                  <li>in persona Ecclesiæ</li>
+                  <li>in nomine Trinitatis</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate
+            data-background="https://upload.wikimedia.org/wikipedia/commons/7/70/Une_messe_en_mer_en_1793.jpg"
+          >
+            <div class="overlay fragment">
+              ...una voce clamantes...
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <pre class="no-box" style="max-width: 50%">
+            <code class="language-plaintext poetry" style="column-count: 1"
+>Glory be to God for dappled things –
+   For skies of couple-colour as a brinded cow;
+      For rose-moles all in stipple upon trout that swim;
+Fresh-firecoal chestnut-falls; finches’ wings;
+   Landscape plotted and pieced – fold, fallow, and plough;
+      And áll trádes, their gear and tackle and trim.
+
+All things counter, original, spare, strange;
+   Whatever is fickle, freckled (who knows how?)
+      With swift, slow; sweet, sour; adazzle, dim;
+He fathers-forth whose beauty is past change:
+                                Praise him.
+            </code>
+            <footer class="citation">
+              <cite><a href="https://www.poetryfoundation.org/poems/44399/pied-beauty">Gerard Manley Hopkins, <em>Pied Beauty</em></a></cite>
+            </footer>
+          </pre>
+        </section>
+
+        <!-- credits -->
+        <section class="medium" data-timing=0>
+          <p>Ⓒ John Morris 2022</p>
+
+          <p>Made with <a href="https://revealjs.com">reveal.js</a>.</p>
+
+          <p>Source available on github: <a href="https://github.com/2e0byo/systematic-theology/">2e0byo/systematic-theology</a>.</p>
+
+          <p style="font-size: small">All images loaded directly from public-domain sources.  See source for credits.</p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js" integrity="sha512-fEgazVdZLNymIm9n+b2jtCrM4DQiqNTfLNUxbsGSFUJpYemf9A8GxgJ3VAfU/Lc6yZkDdEOdekBDZtG/mf73fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js" integrity="sha512-nLsCkPS/rdxRVOkxiKnld9KhQ24V/5kRChzSZ3MoFODykbWyBlQRsHLrbpN3J4LabYBnXIp1EnRIo3ifvyiQIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js" integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+     // More info about initialization & config:
+     // - https://revealjs.com/initialization/
+     // - https://revealjs.com/config/
+     Reveal.initialize({
+       hash: true,
+       multiplex: {
+         secret:"16684315331507990552",
+         id:"9f1f48f2930af8eb",
+         url: 'https://reveal-multiplex.glitch.me/'
+       },
+       dependencies: [
+         { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
+         { src: 'https://reveal-multiplex.glitch.me/master.js', async: true },
+       ],
+
+       // Learn about plugins: https://revealjs.com/plugins/
+       plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+       totalTime: 4800.0, // 1:20:00
+       // The "normal" size of the presentation, aspect ratio will
+       // be preserved when the presentation is scaled to fit different
+       // resolutions. Can be specified using percentage units.
+       width: 960,
+       height: 700,
+
+       // Factor of the display size that should remain empty around
+       // the content
+       margin: 0.04,
+
+       // Bounds for smallest/largest possible scale to apply to content
+       minScale: 0.2,
+       maxScale: 3.0
+     });
+    </script>
+  </body>
+</html>
