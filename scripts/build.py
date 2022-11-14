@@ -15,13 +15,19 @@ def as_client(master: str):
     return master
 
 
-for masterf in list(Path("slides").glob("*.html")):  # not sure if it updates
-    clientf = OUTDIR / masterf.with_name(masterf.stem + "-client.html").name
-    clientf.write_text(as_client(masterf.read_text()))
-    copy(masterf, OUTDIR / masterf.with_name(masterf.stem + "-master.html").name)
+def copy_images(indir: Path, img_suffix: str, outdir: Path):
+    for imgf in indir.glob(f"*{img_suffix}"):
+        copy(imgf, outdir / imgf.name)
 
-for imgf in Path("slides").glob("*.png"):
-    copy(imgf, OUTDIR / imgf.name)
 
-for imgf in Path("slides").glob("*.jpg"):
-    copy(imgf, OUTDIR / imgf.name)
+for dir in Path("slides").glob("*"):
+    if not dir.is_dir():
+        continue
+    currentf = dir / "slide.html"
+    name = currentf.parent.parts[-1]
+    clientf = OUTDIR / (name + "-client.html")
+    masterf = OUTDIR / (name + "-master.html")
+    clientf.write_text(as_client(currentf.read_text()))
+    copy(currentf, masterf)
+    for img_suffix in {".png", ".jpg"}:
+        copy_images(dir, img_suffix, OUTDIR)
