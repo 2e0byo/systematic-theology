@@ -504,6 +504,15 @@
         "Classes": ["7_soteriology"],
         "Type": "Book",
         "Language": "English"
+    },
+    {
+        "Category": "Theology",
+        "Title": "Dare we hope that all men be saved?",
+        "Author": "Hans Urs von Balthasar",
+        "Url": "https: //archive.org/details/darewehopethatal0000balt_b6g5",
+        "Online": true,
+        "Classes": ["8_eschatology"],
+        "Type": "Book",
+        "Language": "English"
     }
-
 ]
