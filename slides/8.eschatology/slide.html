@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -11,82 +12,360 @@
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-     .reveal table td { border-bottom: none;}
-     .row { display: flex }
-     .column { flex: 50% }
-     .column > img {
-       max-height: 60%;
-     }
-     blockquote {
-       text-align: justify;
-       hyphens: auto;
-       text-justify: auto;
-       font-size: large;
-     }
-     footer.citation {
-       text-align: right;
-       margin-top: 0.5em;
-       font-family: sans-serif;
-     }
-     .overlay {
-       background-color: var(--r-background-color) !important;
-       opacity: 70% !important;
-     }
-     .rubric {
-       color: red;
-     }
-     .hljs-ln-numbers { display: none }
-     .no-box {box-shadow: none !important}
-     .medium {font-size: medium}
-     .poetry {
-       background-color: var(--r-background-color);
-       font-family: serif !important;
-       font-size: medium;
-       white-space: pre;
-       line-height: normal;
-       column-count: 2;
-     }
-     .poetry-lines {
-       margin-top: 1em;
-       text-align: left;
-       font-family: serif !important;
-       font-weight: normal;
-       font-size: medium;
-       white-space: pre;
-       line-height: normal;
-     }
-     .faded { opacity: 0.4 }
-     .unfaded {opacity: 1}
-     .bg {
-       background-color: var(--r-main-color);
-     }
+        .reveal table td {
+            border-bottom: none;
+        }
+
+        .row {
+            display: flex
+        }
+
+        .column {
+            flex: 50%
+        }
+
+        .column>img {
+            max-height: 60%;
+        }
+
+        blockquote {
+            text-align: justify;
+            hyphens: auto;
+            text-justify: auto;
+            font-size: large;
+        }
+
+        footer.citation {
+            text-align: right;
+            margin-top: 0.5em;
+            font-family: sans;
+        }
+
+        .overlay {
+            background-color: var(--r-background-color) !important;
+            opacity: 70% !important;
+        }
+
+        .rubric {
+            color: red;
+        }
+
+        .hljs-ln-numbers {
+            display: none
+        }
+
+        .no-box {
+            box-shadow: none !important
+        }
+
+        .medium {
+            font-size: medium
+        }
+
+        .poetry {
+            background-color: var(--r-background-color);
+            font-family: serif !important;
+            font-size: medium;
+            white-space: pre;
+            line-height: normal;
+            column-count: 2;
+        }
+
+        .poetry-lines {
+            margin-top: 1em;
+            text-align: left;
+            font-family: serif !important;
+            font-weight: normal;
+            font-size: medium;
+            white-space: pre;
+            line-height: normal;
+        }
+
+        .faded {
+            opacity: 0.4
+        }
+
+        .unfaded {
+            opacity: 1
+        }
+
+        .bg {
+            background-color: var(--r-main-color);
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="reveal">
-      <div class="slides">
+        <div class="slides">
 
-        <section
-          data-timing="60"
-          data-background-image=""
-          data-background-size="contain">
-          <div class="fragment">
-            <h2 class="overlay">Eschatology</h2>
-          </div>
-         
-        </section>
+            <!-- Original source: https://upload.wikimedia.org/wikipedia/commons/0/03/Harrowing_of_hell_%28Constantinople%2C_14th_c.%29.jpg -->
+            <section data-timing="60" data-background-image="harrowing-hell.jpg" data-background-size="contain">
+                <div class="fragment">
+                    <h2 class="overlay">Eschatology</h2>
+                </div>
+            </section>
 
-        <!-- credits -->
-        <section class="medium" data-timing=0>
-          <p>Ⓒ John Morris 2022</p>
+            <section data-auto-animate>
+                <h4>The Four Last Things</h4>
+                <ul>
+                    <li class="fragment" data-id="1">Death</li>
+                    <li class="fragment" data-id="2">Judgement</li>
+                    <li class="fragment" data-id="3">Heaven</li>
+                    <li class="fragment" data-id="4">Hell</li>
+                </ul>
+            </section>
 
-          <p>Made with <a href="https://revealjs.com">reveal.js</a>.</p>
+            <section data-auto-animate data-timing="60">
+                <h4>The Four Last Things</h4>
+                <ul>
+                    <li data-id="1">Death</li>
+                    <li class="faded" data-id="2">Judgement</li>
+                    <li class="faded" data-id="3">Heaven</li>
+                    <li class="faded" data-id="4">Hell</li>
+                </ul>
 
-          <p>Source available on github: <a href="https://github.com/2e0byo/systematic-theology/">2e0byo/systematic-theology</a>.</p>
+                <blockquote class="fragment" data-id="q">
+                    For since by Man came death, by Man came also the resurrection from
+                    the dead. For as in Adam all die, even so in Christ shall all
+                    be made alive.
 
-          <p style="font-size: small">All images loaded directly from public-domain sources.  See source for credits.</p>
-        </section>
-      </div>
+                    <footer class="citation">
+                        <cite><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A21-22&version=KJV">1 Cor 15:21–22 (KJV)</a></cite>
+                    </footer>
+                </blockquote>
+            </section>
+
+            <section data-auto-animate data-timing="60">
+                <h4>The Four Last Things</h4>
+                <aside class="notes" data-markdown>
+                    We'll return to this.
+                </aside>
+                <ul>
+                    <li data-id="1">Death</li>
+                    <li class="faded" data-id="2">Judgement</li>
+                    <li class="faded" data-id="3">Heaven</li>
+                    <li class="faded" data-id="4">Hell</li>
+                </ul>
+
+                <blockquote data-id="q">
+                    <span class="faded">For since by Man came death, by Man came also the resurrection from
+                        the dead. For as in Adam </span>all<span class="faded"> die, even so in Christ shall </span>all<span class="faded">
+                        be made alive.</span>
+
+                    <footer class="citation">
+                        <cite><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A21-22&version=KJV">1 Cor 15:21–22 (KJV)</a></cite>
+                    </footer>
+                </blockquote>
+            </section>
+
+            <section data-auto-animate data-timing="60">
+                <h4>The Four Last Things</h4>
+                <ul>
+                    <li data-id="1">Death</li>
+                    <li class="faded" data-id="2">Judgement</li>
+                    <li class="faded" data-id="3">Heaven</li>
+                    <li class="faded" data-id="4">Hell</li>
+                </ul>
+
+                <blockquote data-id="q">
+                    <span class="faded">For since by Man came </span>death<span class="faded">,
+                        by Man came also the </span>resurrection<span class="faded"> from
+                        the dead. For as in Adam all die, even so in Christ shall all
+                        be made alive.</span>
+
+                    <footer class="citation">
+                        <cite><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A21-22&version=KJV">1 Cor 15:21–22 (KJV)</a></cite>
+                    </footer>
+                </blockquote>
+            </section>
+
+            <section>
+                <section data-auto-animate>
+                    <h4>Mors ianua vitæ</h4>
+                    <blockquote>
+                        The hour has come that the Son of Man should be
+                        glorified. Most assuredly, I say to you, unless a grain of
+                        wheat falls into the ground and dies, it remains alone; but if
+                        it dies, it produces much grain. He who loves his life will
+                        lose it, and he who hates his life in this world will keep it
+                        for eternal life.
+                        <footer class="citation">
+                            <cite><a href="https://www.biblegateway.com/passage/?search=john+12%3A23-25&version=KJV">Jn 12:23–25 (KJV)</a></cite>
+                        </footer>
+                    </blockquote>
+                    <blockquote>
+                        All we shall die<br />
+                        Though us like ill.
+                    </blockquote>
+                    <ul data-id="li">
+                        <li class="fragment">Death as an act of love</li>
+                        <li class="fragment">Death as ratification</li>
+                    </ul>
+                </section>
+
+                <section data-auto-animate data-timing="20">
+                    <ul data-id="li">
+                        <li>Death as an act of love</li>
+                        <li>Death as ratification</li>
+                    </ul>
+                </section>
+
+                <section data-auto-animate data-timing="20">
+                    <ul data-id="li">
+                        <li>Acceptance of Death as an act of love</li>
+                        <li>Acceptance of Death as ratification</li>
+                    </ul>
+                </section>
+
+                <section data-auto-animate data-timing="20">
+                    <ul data-id="li">
+                        <li>Rejection of Death as an act of despair</li>
+                        <li>Rejection of Death as ratification</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <div class="row">
+                        <div class="column">
+                            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394316494l/19931942.jpg" />
+                        </div>
+                        <div class="column">
+                            The business of life: dying
+                            <blockquote class="fragment">
+                                “Adulterer I have been; heretic will I never be”
+                            </blockquote>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section>
+                <section data-auto-animate data-timing="60">
+                    <h4>The Four Last Things</h4>
+                    <ul>
+                        <li class="faded" data-id="1">Death</li>
+                        <li data-id="2">Judgement</li>
+                        <li class="faded" data-id="3">Heaven</li>
+                        <li class="faded" data-id="4">Hell</li>
+                    </ul>
+                </section>
+                <section>
+
+                    <blockquote class="fragment">
+                      Be thou my judge, O Lord, for I have walked innocently.
+                      <footer class="citation">
+                        <cite>Ps. 26 (Coverdale)</cite>
+                      </footer>
+                    </blockquote>
+
+                    <blockquote class="fragment">
+                      Let the sea make a noise, and all that therein is, the round
+world, and they that dwell therein. Let the floods clap their
+hands, and let the hills be joyful together before the Lord;
+for he is come to judge the earth. With righteousness shall he judge the world,
+and the people with equity.
+                      <footer class="citation">
+                        <cite>Ps. 98 (Coverdale)</cite>
+                      </footer>
+                    </blockquote>
+
+                    <blockquote class="fragment">
+ Enter not into judgement with thy servant; for in thy sight shall no man living be justified.
+                      <footer class="citation">
+                        <cite>Ps. 143 (Coverdale)</cite>
+                      </footer>
+                    </blockquote>
+
+                    <blockquote class="fragment">
+O Lord, I know that the way of man is not in himself: it is not in man that walketh to direct his steps.
+O Lord, correct me, but with judgment; not in thine anger, lest thou bring me to nothing.
+                      <footer class="citation">
+                        <cite>Jer. 10:23–4 (KJV)</cite>
+                      </footer>
+                    </blockquote>
+                </section>
+
+                <section>
+                  <aside class="notes" data-markdown>
+                    - judgement as ratification of predestination in the saved, ratification of evil in the damned.
+                    - judgement as God saying 'enough'.
+                  </aside>
+                  <h4>Judgement: My will or Thine?</h4>
+                  <ul>
+                    <li class="fragment">When?</li>
+                  </ul>
+                </section>
+            </section>
+
+            <section>
+                <section data-auto-animate data-timing="20">
+                    <h4>The Four Last Things</h4>
+                    <ul>
+                        <li class="faded" data-id="1">Death</li>
+                        <li class="faded" data-id="2">Judgement</li>
+                        <li class="faded">Heaven</li>
+                        <li class="faded" data-id="4">Hell</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <section data-auto-animate data-timing="20">
+                    <h4>The Four Last Things</h4>
+                    <ul>
+                        <li class="faded" data-id="1">Death</li>
+                        <li class="faded" data-id="2">Judgement</li>
+                        <li class="faded" data-id="3">Heaven</li>
+                        <li class="faded">Hell</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+              <h4>Realised Eschatology; Liberation Theology</h4>
+            </section>
+
+            <section>
+              <h4>Universal Salvation?</h4>
+            </section>
+
+            <section>
+              <pre class="no-box" style="max-width: 50%">
+                <code class="language-plaintext poetry" style="column-count: 1"
+>The dove descending breaks the air
+With flame of incandescent terror
+Of which the tongues declare
+The one discharge from sin and error.
+The only hope, or else despair
+   Lies in the choice of pyre of pyre—
+   To be redeemed from fire by fire.
+
+Who then devised the torment? Love.
+Love is the unfamiliar Name
+Behind the hands that wove
+The intolerable shirt of flame
+Which human power cannot remove.
+   We only live, only suspire
+   Consumed by either fire or fire.
+                </code>
+                <footer class="citation">
+                  <cite><a href="http://www.davidgorman.com/4quartets/4-gidding.htm">T. S. Eliot, <em>Little Gidding IV</em></a> </cite>
+                </footer>
+              </pre>
+            </section>
+
+            <!-- credits -->
+            <section class="medium" data-timing=0>
+                <p>Ⓒ John Morris 2022</p>
+
+                <p>Made with <a href="https://revealjs.com">reveal.js</a>.</p>
+
+                <p>Source available on github: <a href="https://github.com/2e0byo/systematic-theology/">2e0byo/systematic-theology</a>.</p>
+
+                <p style="font-size: small">All images loaded directly from public-domain sources. See source for credits.</p>
+            </section>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js" integrity="sha512-fEgazVdZLNymIm9n+b2jtCrM4DQiqNTfLNUxbsGSFUJpYemf9A8GxgJ3VAfU/Lc6yZkDdEOdekBDZtG/mf73fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -95,38 +374,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
-     // More info about initialization & config:
-     // - https://revealjs.com/initialization/
-     // - https://revealjs.com/config/
-     Reveal.initialize({
-       hash: true,
-       multiplex: {
-           secret:"16685447565736958673",
-           id:"8053aa3675a06fe2",
-           url: 'https://reveal-multiplex.glitch.me/'
-       },
-       dependencies: [
-         { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
-         { src: 'https://reveal-multiplex.glitch.me/master.js', async: true },
-       ],
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            multiplex: {
+                secret: "16685447565736958673",
+                id: "8053aa3675a06fe2",
+                url: 'https://reveal-multiplex.glitch.me/'
+            },
+            dependencies: [{
+                    src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js',
+                    async: true
+                },
+                {
+                    src: 'https://reveal-multiplex.glitch.me/master.js',
+                    async: true
+                },
+            ],
 
-       // Learn about plugins: https://revealjs.com/plugins/
-       plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-         totalTime: 4800.0, // 1:20:00
-       // The "normal" size of the presentation, aspect ratio will
-       // be preserved when the presentation is scaled to fit different
-       // resolutions. Can be specified using percentage units.
-       width: 960,
-       height: 700,
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            totalTime: 4800.0, // 1:20:00
+            // The "normal" size of the presentation, aspect ratio will
+            // be preserved when the presentation is scaled to fit different
+            // resolutions. Can be specified using percentage units.
+            width: 960,
+            height: 700,
 
-       // Factor of the display size that should remain empty around
-       // the content
-       margin: 0.04,
+            // Factor of the display size that should remain empty around
+            // the content
+            margin: 0.04,
 
-       // Bounds for smallest/largest possible scale to apply to content
-       minScale: 0.2,
-       maxScale: 3.0
-     });
+            // Bounds for smallest/largest possible scale to apply to content
+            minScale: 0.2,
+            maxScale: 3.0
+        });
     </script>
-  </body>
+</body>
+
 </html>
