@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Essay Writing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css" integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/moon.min.css" integrity="sha512-mzpbI+YpB+bIH9gpH3cBq4u5+YvyAikkgAR4SODr5ZpzBZZtLddurEa5LoJRqRfVc6IUfqj6klr0e9KJjUtKHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .reveal table td {
+            border-bottom: none;
+        }
+
+        .row {
+            display: flex
+        }
+
+        .column {
+            flex: 50%
+        }
+
+        .column>img {
+            max-height: 60%;
+        }
+
+        /* blockquote {
+        text-align: justify;
+        hyphens: auto;
+        text-justify: auto;
+        font-size: large;
+        }
+      */
+        footer.citation {
+            text-align: right;
+            margin-top: 0.5em;
+            font-family: sans-serif;
+        }
+
+        .overlay {
+            background-color: var(--r-background-color) !important;
+            opacity: 70% !important;
+        }
+
+        .rubric {
+            color: red;
+        }
+
+        .hljs-ln-numbers {
+            display: none
+        }
+
+        .no-box {
+            box-shadow: none !important
+        }
+
+        .medium {
+            font-size: medium
+        }
+
+        .poetry {
+            background-color: var(--r-background-color);
+            font-family: serif !important;
+            font-size: medium;
+            white-space: pre;
+            line-height: normal;
+            column-count: 2;
+        }
+
+        .poetry-lines {
+            margin-top: 1em;
+            text-align: left;
+            font-family: serif !important;
+            font-weight: normal;
+            font-size: medium;
+            white-space: pre;
+            line-height: normal;
+        }
+
+        .faded {
+            opacity: 0.4
+        }
+
+        .unfaded {
+            opacity: 1
+        }
+
+        .bg {
+            background-color: var(--r-main-color);
+        }
+
+        span.mark {
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-timing="40" data-background-image="https://upload.wikimedia.org/wikipedia/commons/c/c9/The_Scribe_at_Work.jpg" data-background-size="contain">
+                <div class="fragment">
+                    <h2 class="overlay">Essay Writing</h2>
+                </div>
+                <div class="fragment">
+                    <h5 class="overlay">Transitioning from A-Level</h5>
+                </div>
+            </section>
+
+            <!-- Difference A-level/Degree-level -->
+            <section>
+                <section data-auto-animate>
+                    <h4>The problem</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <span data-id="1" class="fragment">Students who did well at A-level </span>
+                                <span data-id="2" class="fragment">are frustrated </span>
+                                <span data-id="3" class="fragment">when their degree level work comes back with low marks.</span>
+                            </td>
+                            <td>
+                                <span data-id="4" class="fragment">Markers </span>
+                                <span data-id="5" class="fragment">are frustrated with good A-level essays </span>
+                                <span data-id="6" class="fragment">to which they have to give low marks.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section data-auto-animate>
+                    <h4>The problem</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <span data-id="1" class="faded">Students who did well at </span>A-level
+                                <span data-id="2" class="faded">are frustrated </span>
+                                <span data-id="3" class="faded">when their degree level work comes back with</span> low marks.
+                            </td>
+                            <td>
+                                <span data-id="4" class="faded">Markers </span>
+                                <span data-id="5" class="faded">are frustrated with good</span> A-level essays
+                                <span data-id="6" class="faded">to which they have to give</span> low marks.
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section data-timing="40" data-auto-animate>
+                    At A-level you have to <em>gesture at</em> arguments. At degree-level you
+                    have to <em>argue</em>.
+                </section>
+
+                <section data-timing="40" data-auto-animate>
+                    At A-level you have to <em>know</em>, at degree-level you
+                    have to <em>show</em>.
+                </section>
+            </section>
+
+            <!-- knowing and showing -->
+            <section>
+                <section>
+                    <div class="row">
+                        <div class="column">
+                            <h5>Knowing</h5>
+                            <ul>
+                                <li class="fragment">Hit the markscheme</li>
+                                <li class="fragment">Name the arguments</li>
+                                <li class="fragment">Make the right claim</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h5>Showing</h5>
+                            <ul>
+                                <li class="fragment">Give an account</li>
+                                <li class="fragment">Argue</li>
+                                <li class="fragment">Defend a case</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- example -->
+            <section>
+                <section>
+                    Exemplum: The Ontological Argument
+                </section>
+                <section data-auto-animate>
+                    <h4>A-Level</h4>
+                    <ul>
+                        <li data-id="1" class="fragment">Anselm says that God is the greatest conceivable being. <span class="mark">(1 mark)</span></li>
+                        <li data-id="2" class="fragment">The greatest conceivable being must exist, since if it didn't, it
+                            wouldn't be greatest. <span class="mark">(1 mark)</span></li>
+                        <li data-id="3" class="fragment">Gaunilo said there was no perfect island. <span class="mark">(1 mark)</span></li>
+                        <li data-id="4" class="fragment">This undermines Anselm's argument. <span class="mark">(1 mark)</span></li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-timing="30">
+                    <h4>A-Level</h4>
+                    <ul>
+                        <li data-id="1"><span class="faded">Anselm says that God is the </span>greatest conceivable being. <span class="mark faded">(1 mark)</span></li>
+                        <li data-id="2"><span class="faded">The greatest conceivable being </span>must exist<span class="faded">, since if it didn't, it </span>
+                            wouldn't be greatest. <span class="mark">(1 mark)</span></li>
+                        <li data-id="3">Gaunilo<span class="faded"> said there was </span>no perfect island. <span class="mark">(1 mark)</span></li>
+                        <li data-id="4"><span class="faded"> This </span>undermines<span class="faded"> Anselm's argument. <span class="mark">(1 mark)</span></span></li>
+                    </ul>
+                </section>
+                <section data-timing="45">
+                    <aside class="notes">
+                        When you write this essay, you have a period of time measured in
+                        minutes to think of the answer, write it down, check it and move on to
+                        the next.
+
+                        When you write a formative or summative essay, by contrast, you have a
+                        period of time measured in weeks or months to reflect on your subject,
+                        read up on it, argue about it, and finally commit to paper a
+                        considered discussion of your claims in the light of the texts on
+                        which they stand. And we have no markscheme, only a set of grade
+                        descriptions (which are in the undergrad handbook) and our own
+                        instinct and knowledge of the subject to guide us.
+                    </aside>
+                    We have no markscheme.
+                </section>
+
+                <section data-timing="45">
+                    <h4>Anselm's account of God in the Ontological Argument</h4>
+                </section>
+
+                <section>
+                    <blockquote>
+                        Anselm says that God is the greatest conceivable being.
+                    </blockquote>
+                    <ul>
+                        <li class="fragment">Where? The proslogion has <em>two</em> “ontological arguments”.</li>
+                        <ul>
+                            <li class="fragment">Ch. 2: That truly there is a God.</li>
+                            <li class="fragment">Ch. 3: That He cannot be thought not to exist</li>
+                        </ul>
+                        <li class="fragment">&rarr; reading of Chs. 2 & 3</li>
+                        <ul>
+                        <li class="fragment">Than which nothing <em>greater</em> can be thought</li>
+                        <li class="fragment">Than which nothing <em>better</em> can be thought</li>
+                        </ul>
+                    </ul>
+                </section>
+
+                <section>
+                  <blockquote>
+                    Than which nothing greater/better can be thought
+                  </blockquote>
+                  <ul>
+                    <li class="fragment">What does it mean to think of the “nothing greater”?</li>
+                    <li class="fragment">Sokolowski: “context of disclosure”</li>
+                    <ul>
+                      <li class="fragment">What is a context of disclosure?</li>
+                    </ul>
+                    <li class="fragment">&rarr; reading of Sokolowski</li>
+                    <ul>
+                      <li class="fragment">Kind of attention paid to an object</li>
+                      <li class="fragment">“background” against which “foreground” is picked out.
+                      </li>
+                      <li class="fragment">&rarr; edge of thought; edge of existence</li>
+                    </ul>
+                  </ul>
+                </section>
+
+                <section data-timing="15" data-auto-animate>
+                  <blockquote data-id="1">
+                    The greatest conceivable being must exist, since if it didn't, it wouldn't be greatest.
+                  </blockquote>
+                </section>
+
+                <section data-timing="15" data-auto-animate>
+                  <blockquote data-id="1">
+                    The greatest conceivable being must exist.
+                  </blockquote>
+                </section>
+
+                <section data-auto-animate>
+                  <blockquote data-id="1">
+                    The greatest conceivable being must exist.
+                  </blockquote>
+                  <ul>
+                    <li class="fragment">For St. Anselm, God is part of the context of disclosure</li>
+                    <li class="fragment">God is that which grounds the particularity of the world</li>
+                    <li class="fragment">That the world is unthinkable without God is the context in which the world (and God) are seen</li>
+                    <li class="fragment">God is wholly other: he creates from nothing, and we reach him only by analogy from his creation</li>
+                  </ul>
+                </section>
+
+                <section data-timing="45">
+                  <p>
+                  (We need an account of analogy in theology here)
+                  </p>
+                  <ul>
+                    <li class="fragment">Thomas?</li>
+                    <li class="fragment">Pryzwara?</li>
+                    <li class="fragment">Mascall?</li>
+                    <li class="fragment">Vatican I?</li>
+                  </ul>
+                </section>
+
+
+                <section>
+                  <blockquote>
+                    Gaunilo said there was no perfect island.
+                  </blockquote>
+                  <ul>
+                    <li class="fragment">An island is not the right <em>kind</em> of object</li>
+                    <li class="fragment">Uniqueness of God</li>
+                    <ul>
+                      <li class="fragment">&rarr; uniqueness of language about God</li>
+                    </ul>
+                  </ul>
+                </section>
+
+                <section>
+                  <h4>Conclusion</h4>
+                  <ul>
+                    <li class="fragment">Anselm's “God” is grounded in the uniqueness of God with respect to creation</li>
+                    <li class="fragment">Consequence of <em>creatio ex nihilo</em></li>
+                    <li class="fragment">God the <em>context of disclosure</em> in which everything is seen</li>
+                    <li class="fragment">“second personal theology”</li>
+                  </ul>
+
+                </section>
+            </section>
+
+            <!-- how to write? whiteboarding -->
+            <section>
+              <section data-auto-animate>
+                <h4>What are we doing?</h4>
+                <p class="fragment">Showing:</p>
+                <ul>
+                  <li class="fragment"><span data-id="1">how something is</span></li>
+                  <li class="fragment"><span data-id="2">our grounds for claiming things are this way</span></li>
+                </ul>
+                
+              </section>
+              <section data-auto-animate>
+                <table>
+                  <tr>
+                    <th style="border-bottom: none;">Account</td>
+                    <td><span data-id="1">how something is</span></td>
+                  </tr>
+                  <tr>
+                    <th>Argument</td>
+                    <td><span data-id="2">our grounds for claiming things are this way</span></td>
+                  </tr>
+                </table>
+              </section>
+
+              <section>
+                <h4>How to write like this</h4>
+                <ul>
+                  <li class="fragment">Have something to say!</li>
+                  <li class="fragment">Say it! (Not something else...)</li>
+                </ul>
+              </section>
+
+              <section>
+                <h4>Techniques</h4>
+                <ul>
+                  <li class="fragment">Whiteboarding</li>
+                  <li class="fragment">Reading out loud</li>
+                  <li class="fragment">Planning...</li>
+                </ul>
+              </section>
+
+              <section>
+                <h4>And lastly...</h4>
+                Don't say:
+                <ul>
+                  <li>refutes</li>
+                  <li>proves</li>
+                  <li>disproves</li>
+                  <li>anything you found in the dictionary or the thesaurus</li>
+                  <li>anything in a foreign language</li>
+                </ul>
+                unless you mean it!
+              </section>
+
+
+            </section>
+
+            <!-- credits -->
+            <section class="medium" data-timing=0>
+                <p>Ⓒ John Morris 2022</p>
+
+                <p>Made with <a href="https://revealjs.com">reveal.js</a>.</p>
+
+                <p>Source available on github: <a href="https://github.com/2e0byo/systematic-theology/">2e0byo/systematic-theology</a>.</p>
+
+                <p style="font-size: small">All images loaded directly from public-domain sources. See source for credits.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js" integrity="sha512-fEgazVdZLNymIm9n+b2jtCrM4DQiqNTfLNUxbsGSFUJpYemf9A8GxgJ3VAfU/Lc6yZkDdEOdekBDZtG/mf73fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js" integrity="sha512-nLsCkPS/rdxRVOkxiKnld9KhQ24V/5kRChzSZ3MoFODykbWyBlQRsHLrbpN3J4LabYBnXIp1EnRIo3ifvyiQIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js" integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            multiplex: {
+                secret: "16703324576033257594",
+                id: "eda32f57f7ce013d",
+                url: 'https://reveal-multiplex.glitch.me/'
+            },
+            dependencies: [{
+                    src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js',
+                    async: true
+                },
+                {
+                    src: 'https://reveal-multiplex.glitch.me/master.js',
+                    async: true
+                },
+            ],
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            totalTime: 3000.0, // 0:50:00
+            // The "normal" size of the presentation, aspect ratio will
+            // be preserved when the presentation is scaled to fit different
+            // resolutions. Can be specified using percentage units.
+            width: 960,
+            height: 700,
+
+            // Factor of the display size that should remain empty around
+            // the content
+            margin: 0.04,
+
+            // Bounds for smallest/largest possible scale to apply to content
+            minScale: 0.2,
+            maxScale: 3.0
+        });
+    </script>
+</body>
+
+</html>
