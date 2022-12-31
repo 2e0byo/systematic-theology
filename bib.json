@@ -514,5 +514,29 @@
         "Classes": ["8_eschatology"],
         "Type": "Book",
         "Language": "English"
+    },
+    {
+        "Category": "Theology",
+        "Title": "I Believe in the Holy Spirit",
+        "Author": "Yves Congar",
+        "Url": "https://archive.org/details/ibelieveinholysp0001cong",
+        "Online": true,
+        "Classes": ["6_trinity2"],
+        "Type": "Book",
+        "Language": "English",
+        "Notes": "Three volumes, published together in English and separately in French."
+    },
+    {
+        "Category": "Theology",
+        "Title": "Je crois en l'ésprit saint",
+        "Volume": 2,
+        "Author": "Yves Congar",
+        "Url": "https://archive.org/details/jecroisenlesprit0002cong",
+        "Online": true,
+        "Classes": [
+            "6_trinity2"
+        ],
+        "Type": "Book",
+        "Language": "French"
     }
 ]
